@@ -1,0 +1,4 @@
+
+
+LCD_CLEAR			EQU	0x01
+LCD_HOME			EQU	0x02

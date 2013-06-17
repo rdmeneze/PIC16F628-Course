@@ -1,0 +1,64 @@
+MPLINK 4.30.01, Linker
+Linker Map File - Created Mon Jun 29 23:25:15 2009
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                     MAIN       code   0x000000    program   0x000002
+                   .cinit    romdata   0x000001    program   0x000004
+                   INTERR       code   0x000004    program   0x000020
+                    .code       code   0x000014    program   0x000040
+                  .config       code   0x002007    program   0x000002
+               .udata_ovr      udata   0x000120       data   0x000008
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000002      
+                            0x000004    0x000033      
+                            0x002007    0x002007      
+            52 out of 2183 program addresses used, program memory utilization is 2%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+              _.code_000A   0x000020    program     static C:\sources\senai\projetos\curso - 628\exemplos\ex2\delay.asm
+              _.code_000E   0x000024    program     static C:\sources\senai\projetos\curso - 628\exemplos\ex2\delay.asm
+                 delay1ms   0x000016    program     extern C:\sources\senai\projetos\curso - 628\exemplos\ex2\delay.asm
+                    func1   0x000014    program     extern C:\sources\senai\projetos\curso - 628\exemplos\ex2\teste.asm
+                   inicio   0x000005    program     static C:\sources\senai\projetos\curso - 628\exemplos\ex2\ex2.asm
+                     loop   0x00002c    program     static C:\sources\senai\projetos\curso - 628\exemplos\ex2\timer.asm
+                      mpy   0x000026    program     extern C:\sources\senai\projetos\curso - 628\exemplos\ex2\timer.asm
+                   H_byte   0x000125       data     static C:\sources\senai\projetos\curso - 628\exemplos\ex2\timer.asm
+                   L_byte   0x000126       data     static C:\sources\senai\projetos\curso - 628\exemplos\ex2\timer.asm
+                    count   0x000127       data     static C:\sources\senai\projetos\curso - 628\exemplos\ex2\timer.asm
+                        i   0x000120       data     static C:\sources\senai\projetos\curso - 628\exemplos\ex2\delay.asm
+                        j   0x000121       data     static C:\sources\senai\projetos\curso - 628\exemplos\ex2\delay.asm
+                   mulcnd   0x000120       data     static C:\sources\senai\projetos\curso - 628\exemplos\ex2\timer.asm
+                   mulplr   0x000124       data     static C:\sources\senai\projetos\curso - 628\exemplos\ex2\timer.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   inicio   0x000005    program     static C:\sources\senai\projetos\curso - 628\exemplos\ex2\ex2.asm
+                    func1   0x000014    program     extern C:\sources\senai\projetos\curso - 628\exemplos\ex2\teste.asm
+                 delay1ms   0x000016    program     extern C:\sources\senai\projetos\curso - 628\exemplos\ex2\delay.asm
+              _.code_000A   0x000020    program     static C:\sources\senai\projetos\curso - 628\exemplos\ex2\delay.asm
+              _.code_000E   0x000024    program     static C:\sources\senai\projetos\curso - 628\exemplos\ex2\delay.asm
+                      mpy   0x000026    program     extern C:\sources\senai\projetos\curso - 628\exemplos\ex2\timer.asm
+                     loop   0x00002c    program     static C:\sources\senai\projetos\curso - 628\exemplos\ex2\timer.asm
+                        i   0x000120       data     static C:\sources\senai\projetos\curso - 628\exemplos\ex2\delay.asm
+                   mulcnd   0x000120       data     static C:\sources\senai\projetos\curso - 628\exemplos\ex2\timer.asm
+                        j   0x000121       data     static C:\sources\senai\projetos\curso - 628\exemplos\ex2\delay.asm
+                   mulplr   0x000124       data     static C:\sources\senai\projetos\curso - 628\exemplos\ex2\timer.asm
+                   H_byte   0x000125       data     static C:\sources\senai\projetos\curso - 628\exemplos\ex2\timer.asm
+                   L_byte   0x000126       data     static C:\sources\senai\projetos\curso - 628\exemplos\ex2\timer.asm
+                    count   0x000127       data     static C:\sources\senai\projetos\curso - 628\exemplos\ex2\timer.asm
+
+

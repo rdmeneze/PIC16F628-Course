@@ -1,0 +1,95 @@
+MPLINK 4.30.01, Linker
+Linker Map File - Created Sat Aug 29 15:54:49 2009
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                  RST_VEC       code   0x000000    program   0x000002
+                   .cinit    romdata   0x000001    program   0x000004
+                  INT_VEC       code   0x000004    program   0x000004
+                    .code       code   0x000006    program   0x00018e
+                  .config       code   0x002007    program   0x000002
+                   .udata      udata   0x000120       data   0x000005
+               .udata_ovr      udata   0x000125       data   0x000004
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000002      
+                            0x000004    0x0000cc      
+                            0x002007    0x002007      
+            205 out of 2183 program addresses used, program memory utilization is 9%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                  BCD2Int   0x0000b4    program     extern E:\senai\projetos\curso - 628\exemplos\serial\funcoes.asm
+                    DIV_8   0x00002e    program     extern E:\senai\projetos\curso - 628\exemplos\serial\math.asm
+    DIV_8_END_DIV.EQ.DIVD   0x00005b    program     static E:\senai\projetos\curso - 628\exemplos\serial\math.asm
+    DIV_8_END_DIV.GT.DIVD   0x000060    program     static E:\senai\projetos\curso - 628\exemplos\serial\math.asm
+          DIV_8_END_RESTO   0x000051    program     static E:\senai\projetos\curso - 628\exemplos\serial\math.asm
+               DIV_8_LOOP   0x00003b    program     static E:\senai\projetos\curso - 628\exemplos\serial\math.asm
+                Delay_1ms   0x000068    program     extern E:\senai\projetos\curso - 628\exemplos\serial\delay.asm
+              Delay_500ms   0x00007a    program     extern E:\senai\projetos\curso - 628\exemplos\serial\delay.asm
+                Delay_Xms   0x000073    program     extern E:\senai\projetos\curso - 628\exemplos\serial\delay.asm
+                  Int2BCD   0x000096    program     extern E:\senai\projetos\curso - 628\exemplos\serial\funcoes.asm
+                    MUL_8   0x000006    program     extern E:\senai\projetos\curso - 628\exemplos\serial\math.asm
+                MUL_8_END   0x000024    program     static E:\senai\projetos\curso - 628\exemplos\serial\math.asm
+               MUL_8_LOOP   0x000010    program     static E:\senai\projetos\curso - 628\exemplos\serial\math.asm
+                 TBL_Read   0x00008c    program     extern E:\senai\projetos\curso - 628\exemplos\serial\funcoes.asm
+              _.code_0007   0x00006f    program     static E:\senai\projetos\curso - 628\exemplos\serial\delay.asm
+              _.code_0009   0x000071    program     static E:\senai\projetos\curso - 628\exemplos\serial\delay.asm
+              _.code_0010   0x000078    program     static E:\senai\projetos\curso - 628\exemplos\serial\delay.asm
+              _.code_001D   0x000085    program     static E:\senai\projetos\curso - 628\exemplos\serial\delay.asm
+              _.code_0022   0x00008a    program     static E:\senai\projetos\curso - 628\exemplos\serial\delay.asm
+                    _main   0x000005    program     static E:\senai\projetos\curso - 628\exemplos\serial\main.asm
+                    B_REG   0x000120       data     extern E:\senai\projetos\curso - 628\exemplos\serial\math.asm
+                        I   0x000125       data     static E:\senai\projetos\curso - 628\exemplos\serial\delay.asm
+                        J   0x000126       data     static E:\senai\projetos\curso - 628\exemplos\serial\delay.asm
+                        K   0x000127       data     static E:\senai\projetos\curso - 628\exemplos\serial\delay.asm
+                     LTMP   0x000126       data     static E:\senai\projetos\curso - 628\exemplos\serial\math.asm
+                  TBL_PTR   0x000122       data     extern E:\senai\projetos\curso - 628\exemplos\serial\funcoes.asm
+                   W_TEMP   0x000121       data     static E:\senai\projetos\curso - 628\exemplos\serial\math.asm
+                   W_TEMP   0x000124       data     static E:\senai\projetos\curso - 628\exemplos\serial\funcoes.asm
+                   iCount   0x000125       data     static E:\senai\projetos\curso - 628\exemplos\serial\math.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    _main   0x000005    program     static E:\senai\projetos\curso - 628\exemplos\serial\main.asm
+                    MUL_8   0x000006    program     extern E:\senai\projetos\curso - 628\exemplos\serial\math.asm
+               MUL_8_LOOP   0x000010    program     static E:\senai\projetos\curso - 628\exemplos\serial\math.asm
+                MUL_8_END   0x000024    program     static E:\senai\projetos\curso - 628\exemplos\serial\math.asm
+                    DIV_8   0x00002e    program     extern E:\senai\projetos\curso - 628\exemplos\serial\math.asm
+               DIV_8_LOOP   0x00003b    program     static E:\senai\projetos\curso - 628\exemplos\serial\math.asm
+          DIV_8_END_RESTO   0x000051    program     static E:\senai\projetos\curso - 628\exemplos\serial\math.asm
+    DIV_8_END_DIV.EQ.DIVD   0x00005b    program     static E:\senai\projetos\curso - 628\exemplos\serial\math.asm
+    DIV_8_END_DIV.GT.DIVD   0x000060    program     static E:\senai\projetos\curso - 628\exemplos\serial\math.asm
+                Delay_1ms   0x000068    program     extern E:\senai\projetos\curso - 628\exemplos\serial\delay.asm
+              _.code_0007   0x00006f    program     static E:\senai\projetos\curso - 628\exemplos\serial\delay.asm
+              _.code_0009   0x000071    program     static E:\senai\projetos\curso - 628\exemplos\serial\delay.asm
+                Delay_Xms   0x000073    program     extern E:\senai\projetos\curso - 628\exemplos\serial\delay.asm
+              _.code_0010   0x000078    program     static E:\senai\projetos\curso - 628\exemplos\serial\delay.asm
+              Delay_500ms   0x00007a    program     extern E:\senai\projetos\curso - 628\exemplos\serial\delay.asm
+              _.code_001D   0x000085    program     static E:\senai\projetos\curso - 628\exemplos\serial\delay.asm
+              _.code_0022   0x00008a    program     static E:\senai\projetos\curso - 628\exemplos\serial\delay.asm
+                 TBL_Read   0x00008c    program     extern E:\senai\projetos\curso - 628\exemplos\serial\funcoes.asm
+                  Int2BCD   0x000096    program     extern E:\senai\projetos\curso - 628\exemplos\serial\funcoes.asm
+                  BCD2Int   0x0000b4    program     extern E:\senai\projetos\curso - 628\exemplos\serial\funcoes.asm
+                    B_REG   0x000120       data     extern E:\senai\projetos\curso - 628\exemplos\serial\math.asm
+                   W_TEMP   0x000121       data     static E:\senai\projetos\curso - 628\exemplos\serial\math.asm
+                  TBL_PTR   0x000122       data     extern E:\senai\projetos\curso - 628\exemplos\serial\funcoes.asm
+                   W_TEMP   0x000124       data     static E:\senai\projetos\curso - 628\exemplos\serial\funcoes.asm
+                        I   0x000125       data     static E:\senai\projetos\curso - 628\exemplos\serial\delay.asm
+                   iCount   0x000125       data     static E:\senai\projetos\curso - 628\exemplos\serial\math.asm
+                        J   0x000126       data     static E:\senai\projetos\curso - 628\exemplos\serial\delay.asm
+                     LTMP   0x000126       data     static E:\senai\projetos\curso - 628\exemplos\serial\math.asm
+                        K   0x000127       data     static E:\senai\projetos\curso - 628\exemplos\serial\delay.asm
+
+

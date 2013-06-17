@@ -1,0 +1,268 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;   
+;   Biblioteca de controle de display LCD em modo 4 bits
+;   @Author  :  Rafael Dias Menezes
+;   @Data    :  Ago/2009
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+	#include <defs.inc>
+	#include <macros.inc>
+	#include <lcd_cmd.inc>
+	
+LCD_EN				EQU	4
+LCD_RW				EQU	5
+LCD_RS				EQU	6
+LCD_PORT			EQU	PORTB
+LCD_LINES			EQU	2
+LCD_COLS			EQU	16
+LCD_ADDR_L1		EQU	0x00
+LCD_ADDR_L2		EQU	0x40
+	
+	
+	GLOBAL LCD_Init, LCD_Print, LCD_cmd, LCD_data, LCD_Putc
+	
+	
+	EXTERN	Delay_1ms, Delay_Xms, B_REG
+	
+	UDATA
+tmp	res 1
+
+	
+	CODE
+	
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+;	LCD_cmd
+;	\brief envia um comando ao LCD em modo 4 bits
+;	\param	WREG comando a ser enviado ao display 
+;	
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+LCD_cmd:
+	BANKSEL	tmp
+	movwf		tmp
+	;primeiro devo enviar o nibble superior
+	swapf		tmp,W
+	andlw		0x0F
+	iorlw		(1 << LCD_EN) ; ligo o bit EN. RS mantem em 0
+	BANKSEL	LCD_PORT
+	movwf		LCD_PORT
+	andlw		~(1 << LCD_EN)
+	movwf 	LCD_PORT
+	nop
+	nop
+	BANKSEL	tmp
+	movfw		tmp
+	andlw		0x0F
+	iorlw		(1 << LCD_EN) ; ligo o bit EN. RS mantem em 0
+	BANKSEL	LCD_PORT
+	movwf		LCD_PORT
+	andlw		~(1 << LCD_EN)
+	movwf 	LCD_PORT
+	
+	PAGESEL Delay_1ms
+	call		Delay_1ms
+	return;
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+;	LCD_data
+;	\brief envia um dado ao LCD em modo 4 bits
+;	\param	WREG dado a ser enviado ao display 
+;	
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+LCD_data:
+	BANKSEL	tmp
+	movwf		tmp
+	;primeiro devo enviar o nibble superior
+	swapf		tmp,W
+	andlw		0x0F
+	iorlw		(1 << LCD_EN) | (1 << LCD_RS) ; ligo bit EN e RS. 
+	BANKSEL	LCD_PORT
+	movwf		LCD_PORT
+	andlw		~(1 << LCD_EN)
+	movwf 	LCD_PORT
+	nop
+	nop
+	BANKSEL	tmp
+	movfw		tmp
+	andlw		0x0F
+	iorlw		(1 << LCD_EN) ; ligo bit EN e RS. 
+	BANKSEL	LCD_PORT
+	movwf		LCD_PORT
+	andlw		~((1 << LCD_EN) | (1 << LCD_RS))
+	movwf 	LCD_PORT
+	
+	PAGESEL Delay_1ms
+	call		Delay_1ms
+	return;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+;	LCDInit
+;	\brief INicializa o display LCD em modo 4 bits
+;	
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+LCD_Init:
+	BANKSEL	LCD_PORT
+	bcf			LCD_PORT, LCD_RW
+	
+	PAGESEL	LCD_Reset
+	call		LCD_Reset
+	
+	movlw		0x28						;4-bit, 2 line, 5x7 dots
+	PAGESEL	LCD_cmd
+	call		LCD_cmd
+	
+	movlw		0x0C						;Display ON cursor OFF
+	PAGESEL	LCD_cmd
+	call		LCD_cmd
+	
+	movlw		0x06						;Set entry mode (Auto increment)
+	PAGESEL	LCD_cmd
+	call		LCD_cmd
+	
+	movlw		0x80						;Bring cursor to line 1
+	PAGESEL	LCD_cmd
+	call		LCD_cmd
+	
+	return	
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+	
+	
+	
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+;	LCDprint
+;	\brief Escreve um texto no display.
+;	
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+LCD_Print:
+	return	
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+;	LCD_Putc
+;	\brief envia um caracter ao display.
+;	\param	W_REG	dado a ser enviado
+;	
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+LCD_Putc:
+	BANKSEL	tmp
+	movwf		tmp
+	CJEQ    tmp, '\r', LCD_Putc_BRK
+	goto 		LCD_Putc_BRK
+	goto		LCD_Putc_
+LCD_Putc_BRK:
+	BANKSEL	B_REG
+	movlw		1
+	movwf		B_REG
+	movlw		0
+	PAGESEL	LCD_GotoXY
+	call		LCD_GotoXY
+
+LCD_Putc_:
+	BANKSEL	tmp
+	movfw		tmp
+	PAGESEL	LCD_data
+	call 		LCD_data
+	return
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+;	LCD_GotoXY
+;	\brief vai a uma posição do display.
+;	\param	W_REG	posisão X, B_REG posicçao Y para salto du cursor.
+;	
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+LCD_GotoXY:
+	BANKSEL	tmp
+	movwf		tmp
+	
+	BANKSEL	B_REG
+	movfw		B_REG	
+		
+	btfsc		STATUS,Z
+	goto		LCD_GotoXY_L1
+	goto		LCD_GotoXY_L2
+	
+LCD_GotoXY_L1:
+	BANKSEL	tmp
+	movfw		tmp
+	addlw		LCD_ADDR_L1
+	PAGESEL	LCD_cmd
+	goto		LCD_GotoXY_cmd
+	
+LCD_GotoXY_L2:
+	BANKSEL	tmp
+	movfw		tmp
+	addlw		LCD_ADDR_L2
+	PAGESEL	LCD_cmd
+	goto		LCD_GotoXY_cmd
+	
+LCD_GotoXY_cmd:	
+	call		LCD_cmd
+	return
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+;	LCD_Reset
+;	\brief Sequencia de reset do LCD
+;	
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+LCD_Reset:
+	BANKSEL	LCD_PORT
+	movwf		0x00
+	movwf		LCD_PORT
+	movlw		20
+	PAGESEL	Delay_Xms
+	call		Delay_Xms
+	
+	movlw		0x03 | (1 << LCD_EN)		; Data = 0x30, LCD_EN = 1
+	BANKSEL	LCD_PORT								
+	movwf		LCD_PORT
+	movlw		0x03										; Data = 0x30, LCD_EN = 0
+	nop
+	movwf		LCD_PORT
+	movlw		15											; delay 15ms
+	PAGESEL	Delay_Xms
+	call		Delay_Xms
+	
+	movlw		0x03 | (1 << LCD_EN)		; Data = 0x30, LCD_EN = 1
+	BANKSEL	LCD_PORT								
+	movwf		LCD_PORT
+	movlw		0x03										; Data = 0x30, LCD_EN = 0
+	nop
+	movwf		LCD_PORT
+	movlw		5											 	; delay 5ms
+	PAGESEL	Delay_Xms
+	call		Delay_Xms
+	
+	movlw		0x03 | (1 << LCD_EN)
+	BANKSEL	LCD_PORT
+	movwf		LCD_PORT
+	movlw		0x03
+	nop
+	movwf		LCD_PORT
+	movlw		5
+	PAGESEL	Delay_Xms
+	call		Delay_Xms
+	
+	movlw		0x02 | (1 << LCD_EN)		; seleciona largura dos dados (20H -> 4bits)
+	BANKSEL	LCD_PORT
+	movwf		LCD_PORT
+	movlw		0x02
+	nop
+	movwf		LCD_PORT
+	movlw		5
+	PAGESEL	Delay_Xms
+	call		Delay_Xms
+	
+	return
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+	
+	
+	END

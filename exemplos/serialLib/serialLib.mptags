@@ -1,0 +1,48 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+!_TAG_REVISION_NAME	MCHPTags	//
+!_TAG_REVISION_VERSION	6.0.1	//
+BCW	E:\senai\projetos\curso - 628\exemplos\serialLib\macros.inc	225;"	m	line:225
+BSW	E:\senai\projetos\curso - 628\exemplos\serialLib\macros.inc	257;"	m	line:257
+BUFFER_TAM	E:\senai\projetos\curso - 628\exemplos\serialLib\seriallib.asm	10;"	q	line:10
+CFJEQ	E:\senai\projetos\curso - 628\exemplos\serialLib\macros.inc	36;"	m	line:36
+CFJGT	E:\senai\projetos\curso - 628\exemplos\serialLib\macros.inc	52;"	m	line:52
+CFJLT	E:\senai\projetos\curso - 628\exemplos\serialLib\macros.inc	68;"	m	line:68
+CFJNE	E:\senai\projetos\curso - 628\exemplos\serialLib\macros.inc	18;"	m	line:18
+CJEQ	E:\senai\projetos\curso - 628\exemplos\serialLib\macros.inc	102;"	m	line:102
+CJGT	E:\senai\projetos\curso - 628\exemplos\serialLib\macros.inc	117;"	m	line:117
+CJLT	E:\senai\projetos\curso - 628\exemplos\serialLib\macros.inc	132;"	m	line:132
+CJNE	E:\senai\projetos\curso - 628\exemplos\serialLib\macros.inc	85;"	m	line:85
+COMW	E:\senai\projetos\curso - 628\exemplos\serialLib\macros.inc	216;"	m	line:216
+DECW	E:\senai\projetos\curso - 628\exemplos\serialLib\macros.inc	188;"	m	line:188
+ESTADO_0	E:\senai\projetos\curso - 628\exemplos\serialLib\seriallib.asm	92;"	l	line:92
+ESTADO_1	E:\senai\projetos\curso - 628\exemplos\serialLib\seriallib.asm	107;"	l	line:107
+ESTADO_2	E:\senai\projetos\curso - 628\exemplos\serialLib\seriallib.asm	108;"	l	line:108
+ESTADO_3	E:\senai\projetos\curso - 628\exemplos\serialLib\seriallib.asm	109;"	l	line:109
+ESTADO_4	E:\senai\projetos\curso - 628\exemplos\serialLib\seriallib.asm	137;"	l	line:137
+ESTADO_5	E:\senai\projetos\curso - 628\exemplos\serialLib\seriallib.asm	143;"	l	line:143
+ESTADO_ERRO	E:\senai\projetos\curso - 628\exemplos\serialLib\seriallib.asm	147;"	l	line:147
+ESTADO_SAI	E:\senai\projetos\curso - 628\exemplos\serialLib\seriallib.asm	153;"	l	line:153
+INCW	E:\senai\projetos\curso - 628\exemplos\serialLib\macros.inc	179;"	m	line:179
+ISR	E:\senai\projetos\curso - 628\exemplos\serialLib\main.asm	19;"	l	line:19
+InitSerialPort	E:\senai\projetos\curso - 628\exemplos\serialLib\seriallib.asm	25;"	l	line:25
+JPWEQ	E:\senai\projetos\curso - 628\exemplos\serialLib\macros.inc	168;"	m	line:168
+JPWNZ	E:\senai\projetos\curso - 628\exemplos\serialLib\macros.inc	156;"	m	line:156
+JPWZ	E:\senai\projetos\curso - 628\exemplos\serialLib\macros.inc	145;"	m	line:145
+RESET_VEC	E:\senai\projetos\curso - 628\exemplos\serialLib\main.asm	14;"	l	line:14
+RLNC	E:\senai\projetos\curso - 628\exemplos\serialLib\macros.inc	207;"	m	line:207
+RRNC	E:\senai\projetos\curso - 628\exemplos\serialLib\macros.inc	197;"	m	line:197
+STATUS_TEMP	E:\senai\projetos\curso - 628\exemplos\serialLib\main.asm	9;"	v	line:9
+TrataIntSerialPort	E:\senai\projetos\curso - 628\exemplos\serialLib\seriallib.asm	54;"	l	line:54
+W_TEMP	E:\senai\projetos\curso - 628\exemplos\serialLib\main.asm	10;"	v	line:10
+_main	E:\senai\projetos\curso - 628\exemplos\serialLib\main.asm	35;"	l	line:35
+bCheckSum	E:\senai\projetos\curso - 628\exemplos\serialLib\seriallib.asm	13;"	v	line:13
+cContSerialBuf	E:\senai\projetos\curso - 628\exemplos\serialLib\seriallib.asm	15;"	v	line:15
+cDado	E:\senai\projetos\curso - 628\exemplos\serialLib\seriallib.asm	18;"	v	line:18
+cEstado	E:\senai\projetos\curso - 628\exemplos\serialLib\seriallib.asm	16;"	v	line:16
+cFlagsSerial	E:\senai\projetos\curso - 628\exemplos\serialLib\seriallib.asm	17;"	v	line:17
+cSerialBuffer	E:\senai\projetos\curso - 628\exemplos\serialLib\seriallib.asm	14;"	v	line:14

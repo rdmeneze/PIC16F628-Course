@@ -1,0 +1,227 @@
+[Header]
+MagicCookie={0b13fe8c-dfe0-40eb-8900-6712719559a7}
+Version=1.0
+[File000]
+Location=E:\senai\projetos\curso - 628\exemplos\ex3\ex3.o
+Folder=Intermediary
+DeviceName=PIC16F628A
+LanguageToolSuiteID={6B3DAA78-59C1-46DD-B6AA-DBDAE4E06484}
+LanguageToolID={49D3CA3F-D9A3-4518-9943-226A347E8CC7}
+LanguageToolLocation=C:\Arquivos de programas\Microchip\MPASM Suite\MPASMWIN.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|ex3.asm|delay.asm|funcoes.asm|timer0.asm||<obj>||<lib>||<lkr>||
+SuiteArgsString=generate-relocatable-code
+ToolArgsString=
+TraceCmdString=
+DebugOptions=/d__DEBUG=1
+[File001]
+Location=E:\senai\projetos\curso - 628\exemplos\ex3\ex3.err
+Folder=Intermediary
+DeviceName=PIC16F628A
+LanguageToolSuiteID={6B3DAA78-59C1-46DD-B6AA-DBDAE4E06484}
+LanguageToolID={49D3CA3F-D9A3-4518-9943-226A347E8CC7}
+LanguageToolLocation=C:\Arquivos de programas\Microchip\MPASM Suite\MPASMWIN.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|ex3.asm|delay.asm|funcoes.asm|timer0.asm||<obj>||<lib>||<lkr>||
+SuiteArgsString=generate-relocatable-code
+ToolArgsString=
+TraceCmdString=
+DebugOptions=/d__DEBUG=1
+[File002]
+Location=E:\senai\projetos\curso - 628\exemplos\ex3\delay.o
+Folder=Intermediary
+DeviceName=PIC16F628A
+LanguageToolSuiteID={6B3DAA78-59C1-46DD-B6AA-DBDAE4E06484}
+LanguageToolID={49D3CA3F-D9A3-4518-9943-226A347E8CC7}
+LanguageToolLocation=C:\Arquivos de programas\Microchip\MPASM Suite\MPASMWIN.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|ex3.asm|delay.asm|funcoes.asm|timer0.asm||<obj>||<lib>||<lkr>||
+SuiteArgsString=generate-relocatable-code
+ToolArgsString=
+TraceCmdString=
+DebugOptions=/d__DEBUG=1
+[File003]
+Location=E:\senai\projetos\curso - 628\exemplos\ex3\delay.err
+Folder=Intermediary
+DeviceName=PIC16F628A
+LanguageToolSuiteID={6B3DAA78-59C1-46DD-B6AA-DBDAE4E06484}
+LanguageToolID={49D3CA3F-D9A3-4518-9943-226A347E8CC7}
+LanguageToolLocation=C:\Arquivos de programas\Microchip\MPASM Suite\MPASMWIN.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|ex3.asm|delay.asm|funcoes.asm|timer0.asm||<obj>||<lib>||<lkr>||
+SuiteArgsString=generate-relocatable-code
+ToolArgsString=
+TraceCmdString=
+DebugOptions=/d__DEBUG=1
+[File004]
+Location=E:\senai\projetos\curso - 628\exemplos\ex3\funcoes.o
+Folder=Intermediary
+DeviceName=PIC16F628A
+LanguageToolSuiteID={6B3DAA78-59C1-46DD-B6AA-DBDAE4E06484}
+LanguageToolID={49D3CA3F-D9A3-4518-9943-226A347E8CC7}
+LanguageToolLocation=C:\Arquivos de programas\Microchip\MPASM Suite\MPASMWIN.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|ex3.asm|delay.asm|funcoes.asm|timer0.asm||<obj>||<lib>||<lkr>||
+SuiteArgsString=generate-relocatable-code
+ToolArgsString=
+TraceCmdString=
+DebugOptions=/d__DEBUG=1
+[File005]
+Location=E:\senai\projetos\curso - 628\exemplos\ex3\funcoes.err
+Folder=Intermediary
+DeviceName=PIC16F628A
+LanguageToolSuiteID={6B3DAA78-59C1-46DD-B6AA-DBDAE4E06484}
+LanguageToolID={49D3CA3F-D9A3-4518-9943-226A347E8CC7}
+LanguageToolLocation=C:\Arquivos de programas\Microchip\MPASM Suite\MPASMWIN.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|ex3.asm|delay.asm|funcoes.asm|timer0.asm||<obj>||<lib>||<lkr>||
+SuiteArgsString=generate-relocatable-code
+ToolArgsString=
+TraceCmdString=
+DebugOptions=/d__DEBUG=1
+[File006]
+Location=E:\senai\projetos\curso - 628\exemplos\ex3\timer0.o
+Folder=Intermediary
+DeviceName=PIC16F628A
+LanguageToolSuiteID={6B3DAA78-59C1-46DD-B6AA-DBDAE4E06484}
+LanguageToolID={49D3CA3F-D9A3-4518-9943-226A347E8CC7}
+LanguageToolLocation=C:\Arquivos de programas\Microchip\MPASM Suite\MPASMWIN.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|ex3.asm|delay.asm|funcoes.asm|timer0.asm||<obj>||<lib>||<lkr>||
+SuiteArgsString=generate-relocatable-code
+ToolArgsString=
+TraceCmdString=
+DebugOptions=/d__DEBUG=1
+[File007]
+Location=E:\senai\projetos\curso - 628\exemplos\ex3\timer0.err
+Folder=Intermediary
+DeviceName=PIC16F628A
+LanguageToolSuiteID={6B3DAA78-59C1-46DD-B6AA-DBDAE4E06484}
+LanguageToolID={49D3CA3F-D9A3-4518-9943-226A347E8CC7}
+LanguageToolLocation=C:\Arquivos de programas\Microchip\MPASM Suite\MPASMWIN.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|ex3.asm|delay.asm|funcoes.asm|timer0.asm||<obj>||<lib>||<lkr>||
+SuiteArgsString=generate-relocatable-code
+ToolArgsString=
+TraceCmdString=
+DebugOptions=/d__DEBUG=1
+[File008]
+Location=E:\senai\projetos\curso - 628\exemplos\ex3\math.o
+Folder=Intermediary
+DeviceName=PIC16F628A
+LanguageToolSuiteID={6B3DAA78-59C1-46DD-B6AA-DBDAE4E06484}
+LanguageToolID={49D3CA3F-D9A3-4518-9943-226A347E8CC7}
+LanguageToolLocation=C:\Arquivos de programas\Microchip\MPASM Suite\MPASMWIN.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|ex3.asm|delay.asm|funcoes.asm|timer0.asm|math.asm||<obj>||<lib>||<lkr>||
+SuiteArgsString=generate-relocatable-code
+ToolArgsString=
+TraceCmdString=
+DebugOptions=/d__DEBUG=1
+[File009]
+Location=E:\senai\projetos\curso - 628\exemplos\ex3\math.err
+Folder=Intermediary
+DeviceName=PIC16F628A
+LanguageToolSuiteID={6B3DAA78-59C1-46DD-B6AA-DBDAE4E06484}
+LanguageToolID={49D3CA3F-D9A3-4518-9943-226A347E8CC7}
+LanguageToolLocation=C:\Arquivos de programas\Microchip\MPASM Suite\MPASMWIN.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|ex3.asm|delay.asm|funcoes.asm|timer0.asm|math.asm||<obj>||<lib>||<lkr>||
+SuiteArgsString=generate-relocatable-code
+ToolArgsString=
+TraceCmdString=
+DebugOptions=/d__DEBUG=1
+[File010]
+Location=E:\senai\projetos\curso - 628\exemplos\ex3\ex3.lst
+Folder=Output
+DeviceName=PIC16F628A
+LanguageToolSuiteID={6B3DAA78-59C1-46DD-B6AA-DBDAE4E06484}
+LanguageToolID={49D3CA3F-D9A3-4518-9943-226A347E8CC7}
+LanguageToolLocation=C:\Arquivos de programas\Microchip\MPASM Suite\MPASMWIN.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|ex3.asm|delay.asm|funcoes.asm|timer0.asm||<obj>||<lib>||<lkr>||
+SuiteArgsString=generate-relocatable-code
+ToolArgsString=
+TraceCmdString=
+DebugOptions=/d__DEBUG=1
+[File011]
+Location=E:\senai\projetos\curso - 628\exemplos\ex3\ex3.cof
+Folder=Output
+DeviceName=PIC16F628A
+LanguageToolSuiteID={6B3DAA78-59C1-46DD-B6AA-DBDAE4E06484}
+LanguageToolID={96C98149-AA1B-4CF9-B967-FAE79CAB663C}
+LanguageToolLocation=C:\Arquivos de programas\Microchip\MPASM Suite\mplink.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|ex3.asm|delay.asm|funcoes.asm|timer0.asm|math.asm||<obj>||<lib>||<lkr>||
+SuiteArgsString=generate-relocatable-code
+ToolArgsString=/o"$(BINDIR_)$(TARGETBASE).cof" /M"$(BINDIR_)$(TARGETBASE).map" /W
+TraceCmdString=
+DebugOptions=/z__MPLAB_DEBUG=1
+[File012]
+Location=E:\senai\projetos\curso - 628\exemplos\ex3\ex3.hex
+Folder=Output
+DeviceName=PIC16F628A
+LanguageToolSuiteID={6B3DAA78-59C1-46DD-B6AA-DBDAE4E06484}
+LanguageToolID={96C98149-AA1B-4CF9-B967-FAE79CAB663C}
+LanguageToolLocation=C:\Arquivos de programas\Microchip\MPASM Suite\mplink.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|ex3.asm|delay.asm|funcoes.asm|timer0.asm|math.asm||<obj>||<lib>||<lkr>||
+SuiteArgsString=generate-relocatable-code
+ToolArgsString=/o"$(BINDIR_)$(TARGETBASE).cof" /M"$(BINDIR_)$(TARGETBASE).map" /W
+TraceCmdString=
+DebugOptions=/z__MPLAB_DEBUG=1
+[File013]
+Location=E:\senai\projetos\curso - 628\exemplos\ex3\delay.lst
+Folder=Output
+DeviceName=PIC16F628A
+LanguageToolSuiteID={6B3DAA78-59C1-46DD-B6AA-DBDAE4E06484}
+LanguageToolID={49D3CA3F-D9A3-4518-9943-226A347E8CC7}
+LanguageToolLocation=C:\Arquivos de programas\Microchip\MPASM Suite\MPASMWIN.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|ex3.asm|delay.asm|funcoes.asm|timer0.asm||<obj>||<lib>||<lkr>||
+SuiteArgsString=generate-relocatable-code
+ToolArgsString=
+TraceCmdString=
+DebugOptions=/d__DEBUG=1
+[File014]
+Location=E:\senai\projetos\curso - 628\exemplos\ex3\funcoes.lst
+Folder=Output
+DeviceName=PIC16F628A
+LanguageToolSuiteID={6B3DAA78-59C1-46DD-B6AA-DBDAE4E06484}
+LanguageToolID={49D3CA3F-D9A3-4518-9943-226A347E8CC7}
+LanguageToolLocation=C:\Arquivos de programas\Microchip\MPASM Suite\MPASMWIN.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|ex3.asm|delay.asm|funcoes.asm|timer0.asm||<obj>||<lib>||<lkr>||
+SuiteArgsString=generate-relocatable-code
+ToolArgsString=
+TraceCmdString=
+DebugOptions=/d__DEBUG=1
+[File015]
+Location=E:\senai\projetos\curso - 628\exemplos\ex3\timer0.lst
+Folder=Output
+DeviceName=PIC16F628A
+LanguageToolSuiteID={6B3DAA78-59C1-46DD-B6AA-DBDAE4E06484}
+LanguageToolID={49D3CA3F-D9A3-4518-9943-226A347E8CC7}
+LanguageToolLocation=C:\Arquivos de programas\Microchip\MPASM Suite\MPASMWIN.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|ex3.asm|delay.asm|funcoes.asm|timer0.asm||<obj>||<lib>||<lkr>||
+SuiteArgsString=generate-relocatable-code
+ToolArgsString=
+TraceCmdString=
+DebugOptions=/d__DEBUG=1
+[File016]
+Location=E:\senai\projetos\curso - 628\exemplos\ex3\math.lst
+Folder=Output
+DeviceName=PIC16F628A
+LanguageToolSuiteID={6B3DAA78-59C1-46DD-B6AA-DBDAE4E06484}
+LanguageToolID={49D3CA3F-D9A3-4518-9943-226A347E8CC7}
+LanguageToolLocation=C:\Arquivos de programas\Microchip\MPASM Suite\MPASMWIN.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|ex3.asm|delay.asm|funcoes.asm|timer0.asm|math.asm||<obj>||<lib>||<lkr>||
+SuiteArgsString=generate-relocatable-code
+ToolArgsString=
+TraceCmdString=
+DebugOptions=/d__DEBUG=1
+[TOOL_LOC_STAMPS]
+tool_loc{49D3CA3F-D9A3-4518-9943-226A347E8CC7}=C:\Arquivos de programas\Microchip\MPASM Suite\MPASMWIN.exe
+tool_loc{96C98149-AA1B-4CF9-B967-FAE79CAB663C}=C:\Arquivos de programas\Microchip\MPASM Suite\mplink.exe

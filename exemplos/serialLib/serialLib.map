@@ -1,0 +1,74 @@
+MPLINK 4.30.01, Linker
+Linker Map File - Created Tue Sep 08 23:43:27 2009
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                RESET_VEC       code   0x000000    program   0x000002
+                   .cinit    romdata   0x000001    program   0x000004
+                      ISR       code   0x000004    program   0x000014
+                    .code       code   0x00000e    program   0x0000de
+                   .udata      udata   0x000120       data   0x00000f
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000002      
+                            0x000004    0x00007c      
+            124 out of 2183 program addresses used, program memory utilization is 5%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                 ESTADO_0   0x00003f    program     static E:\senai\projetos\curso - 628\exemplos\serialLib\seriallib.asm
+                 ESTADO_1   0x000050    program     static E:\senai\projetos\curso - 628\exemplos\serialLib\seriallib.asm
+                 ESTADO_2   0x000050    program     static E:\senai\projetos\curso - 628\exemplos\serialLib\seriallib.asm
+                 ESTADO_3   0x000050    program     static E:\senai\projetos\curso - 628\exemplos\serialLib\seriallib.asm
+                 ESTADO_4   0x00006a    program     static E:\senai\projetos\curso - 628\exemplos\serialLib\seriallib.asm
+                 ESTADO_5   0x000076    program     static E:\senai\projetos\curso - 628\exemplos\serialLib\seriallib.asm
+              ESTADO_ERRO   0x000076    program     static E:\senai\projetos\curso - 628\exemplos\serialLib\seriallib.asm
+               ESTADO_SAI   0x00007c    program     static E:\senai\projetos\curso - 628\exemplos\serialLib\seriallib.asm
+           InitSerialPort   0x00000e    program     extern E:\senai\projetos\curso - 628\exemplos\serialLib\seriallib.asm
+       TrataIntSerialPort   0x000022    program     extern E:\senai\projetos\curso - 628\exemplos\serialLib\seriallib.asm
+                _ISR_000D   0x00000d    program     static E:\senai\projetos\curso - 628\exemplos\serialLib\main.asm
+                    _main   0x00000c    program     static E:\senai\projetos\curso - 628\exemplos\serialLib\main.asm
+              STATUS_TEMP   0x000120       data     static E:\senai\projetos\curso - 628\exemplos\serialLib\main.asm
+                   W_TEMP   0x000121       data     static E:\senai\projetos\curso - 628\exemplos\serialLib\main.asm
+                bCheckSum   0x000122       data     static E:\senai\projetos\curso - 628\exemplos\serialLib\seriallib.asm
+           cContSerialBuf   0x00012b       data     static E:\senai\projetos\curso - 628\exemplos\serialLib\seriallib.asm
+                    cDado   0x00012e       data     static E:\senai\projetos\curso - 628\exemplos\serialLib\seriallib.asm
+                  cEstado   0x00012c       data     static E:\senai\projetos\curso - 628\exemplos\serialLib\seriallib.asm
+             cFlagsSerial   0x00012d       data     static E:\senai\projetos\curso - 628\exemplos\serialLib\seriallib.asm
+            cSerialBuffer   0x000123       data     static E:\senai\projetos\curso - 628\exemplos\serialLib\seriallib.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    _main   0x00000c    program     static E:\senai\projetos\curso - 628\exemplos\serialLib\main.asm
+                _ISR_000D   0x00000d    program     static E:\senai\projetos\curso - 628\exemplos\serialLib\main.asm
+           InitSerialPort   0x00000e    program     extern E:\senai\projetos\curso - 628\exemplos\serialLib\seriallib.asm
+       TrataIntSerialPort   0x000022    program     extern E:\senai\projetos\curso - 628\exemplos\serialLib\seriallib.asm
+                 ESTADO_0   0x00003f    program     static E:\senai\projetos\curso - 628\exemplos\serialLib\seriallib.asm
+                 ESTADO_1   0x000050    program     static E:\senai\projetos\curso - 628\exemplos\serialLib\seriallib.asm
+                 ESTADO_2   0x000050    program     static E:\senai\projetos\curso - 628\exemplos\serialLib\seriallib.asm
+                 ESTADO_3   0x000050    program     static E:\senai\projetos\curso - 628\exemplos\serialLib\seriallib.asm
+                 ESTADO_4   0x00006a    program     static E:\senai\projetos\curso - 628\exemplos\serialLib\seriallib.asm
+                 ESTADO_5   0x000076    program     static E:\senai\projetos\curso - 628\exemplos\serialLib\seriallib.asm
+              ESTADO_ERRO   0x000076    program     static E:\senai\projetos\curso - 628\exemplos\serialLib\seriallib.asm
+               ESTADO_SAI   0x00007c    program     static E:\senai\projetos\curso - 628\exemplos\serialLib\seriallib.asm
+              STATUS_TEMP   0x000120       data     static E:\senai\projetos\curso - 628\exemplos\serialLib\main.asm
+                   W_TEMP   0x000121       data     static E:\senai\projetos\curso - 628\exemplos\serialLib\main.asm
+                bCheckSum   0x000122       data     static E:\senai\projetos\curso - 628\exemplos\serialLib\seriallib.asm
+            cSerialBuffer   0x000123       data     static E:\senai\projetos\curso - 628\exemplos\serialLib\seriallib.asm
+           cContSerialBuf   0x00012b       data     static E:\senai\projetos\curso - 628\exemplos\serialLib\seriallib.asm
+                  cEstado   0x00012c       data     static E:\senai\projetos\curso - 628\exemplos\serialLib\seriallib.asm
+             cFlagsSerial   0x00012d       data     static E:\senai\projetos\curso - 628\exemplos\serialLib\seriallib.asm
+                    cDado   0x00012e       data     static E:\senai\projetos\curso - 628\exemplos\serialLib\seriallib.asm
+
+

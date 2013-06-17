@@ -1,0 +1,39 @@
+[PROJECT]
+Target=display.HEX
+Development_Mode=2
+Processor=0x877A
+ToolSuite=CCS
+Processor_Text=PIC16F877A
+
+[Directories]
+Include=
+Library=
+LinkerScript=
+
+[Target Data]
+FileList=E:\Pen Drive\Microcontroladores PIC\KIT 18F2550\Exemplos_452\DISPLAY 7 SEG\display.c
+BuildTool=C-COMPILER
+OptionString=+FM
+AdditionalOptionString=
+BuildRequired=1
+
+[display.c]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+
+[mru-list]
+1=display.c
+
+[Windows]
+0=0000 display.c 0 0 796 451 3 0
+
+[Opened Files]
+1=E:\Pen Drive\Microcontroladores PIC\KIT 18F2550\Exemplos_452\DISPLAY 7 SEG\display.c
+2=
+[Units]
+Count=1
+1=display.c (main)

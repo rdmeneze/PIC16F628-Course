@@ -1,0 +1,378 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+!_TAG_REVISION_NAME	MCHPTags	//
+!_TAG_REVISION_VERSION	6.0.1	//
+BIT0::(1<<0)	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\defs.h	18;"	d	line:18
+BIT1::(1<<1)	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\defs.h	19;"	d	line:19
+BIT2::(1<<2)	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\defs.h	20;"	d	line:20
+BIT3::(1<<3)	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\defs.h	21;"	d	line:21
+BIT4::(1<<4)	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\defs.h	22;"	d	line:22
+BIT5::(1<<5)	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\defs.h	23;"	d	line:23
+BIT6::(1<<6)	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\defs.h	24;"	d	line:24
+BIT7::(1<<7)	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\defs.h	25;"	d	line:25
+BLINK_OFF::0b00001110	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\lcd.h	30;"	d	line:30
+BLINK_ON::0b00001111	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\lcd.h	29;"	d	line:29
+BRG16::1	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\serial.c	13;"	d	line:13	file:
+BRGH::1	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\serial.c	12;"	d	line:12	file:
+BRGValues	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\serial.c	34;"	v	line:34
+BR_115200	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\serial.h	33;"	e	line:33	enum:COM_BaudRate
+BR_1200	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\serial.h	26;"	e	line:26	enum:COM_BaudRate
+BR_19200	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\serial.h	30;"	e	line:30	enum:COM_BaudRate
+BR_2400	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\serial.h	27;"	e	line:27	enum:COM_BaudRate
+BR_300	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\serial.h	25;"	e	line:25	enum:COM_BaudRate
+BR_38400	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\serial.h	31;"	e	line:31	enum:COM_BaudRate
+BR_4800	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\serial.h	28;"	e	line:28	enum:COM_BaudRate
+BR_57600	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\serial.h	32;"	e	line:32	enum:COM_BaudRate
+BR_9600	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\serial.h	29;"	e	line:29	enum:COM_BaudRate
+BYTE	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\defs.h	6;"	t	line:6
+Baud2Int	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\serial.h	108;"	p	line:108	signature:( enum COM_BaudRate c )
+BaudRate	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\serial.c	19;"	v	line:19
+COM_BaudRate	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\serial.h	24;"	g	line:24
+COM_Parity	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\serial.h	15;"	g	line:15
+COM_StopBits	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\serial.h	39;"	g	line:39
+CURSOR_OFF::0b00001101	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\lcd.h	28;"	d	line:28
+CURSOR_ON::0b00001111	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\lcd.h	27;"	d	line:27
+CloseGPS	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	293;"	f	line:293	signature:( void )
+CloseGPS	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	123;"	p	line:123	signature:( void )
+DOFF::0b00001011	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\lcd.h	26;"	d	line:26
+DON::0b00001111	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\lcd.h	25;"	d	line:25
+DWORD	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\defs.h	8;"	t	line:8
+DiffCorr	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	30;"	m	line:30	struct:GPS_GGA
+EIGHT_BIT::0b00111111	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\lcd.h	40;"	d	line:40
+EN_PULSE::Nop;	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\LCD.C	67;"	d	line:67	file:
+ERR_OK::0	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\defs.h	16;"	d	line:16
+E_PIN::LATEbits.LATE1	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\lcd.h	20;"	d	line:20
+FALSE::0	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\defs.h	14;"	d	line:14
+FOSC::XTAL*PLL	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\processor.h	18;"	d	line:18
+FOUR_BIT::0b00101111	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\lcd.h	39;"	d	line:39
+FixInd	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	23;"	m	line:23	struct:GPS_GGA
+GET_VEC_NUM_MEMBERS::(x)(sizeof(x)/sizeof(x[0]))	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\funcoes.h	6;"	d	line:6
+GPGGA	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	7;"	e	line:7	enum:__GPSPROTO
+GPGLL	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	12;"	e	line:12	enum:__GPSPROTO
+GPGSA	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	8;"	e	line:8	enum:__GPSPROTO
+GPGSV	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	9;"	e	line:9	enum:__GPSPROTO
+GPRMC	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	10;"	e	line:10	enum:__GPSPROTO
+GPSProcess	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	510;"	f	line:510	signature:( void )
+GPSProcess	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	134;"	p	line:134	signature:( void )
+GPSProcessPackage	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	462;"	f	line:462	signature:( BYTE* proto, char** cBuffer )
+GPSProto	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	13;"	t	line:13
+GPS_CMD_LEN::5	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	13;"	d	line:13	file:
+GPS_CONV	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	39;"	v	line:39
+GPS_COURSE	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	89;"	s	line:89
+GPS_DATA_LEN::90	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	12;"	d	line:12	file:
+GPS_GGA	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	16;"	s	line:16
+GPS_GGA_CONV	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	60;"	v	line:60
+GPS_GGA_INDEX	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	43;"	v	line:43
+GPS_GGA_LEN::GET_VEC_NUM_MEMBERS(GPS_GGA_IN	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	195;"	d	line:195	file:
+GPS_GLL	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	34;"	s	line:34
+GPS_GLL_CONV	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	87;"	v	line:87
+GPS_GLL_INDEX	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	77;"	v	line:77
+GPS_GLL_LEN::GET_VEC_NUM_MEMBERS(GPS_GLL_IN	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	200;"	d	line:200	file:
+GPS_GSA	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	45;"	s	line:45
+GPS_GSA_CONV	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	118;"	v	line:118
+GPS_GSA_INDEX	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	97;"	v	line:97
+GPS_GSA_LEN::GET_VEC_NUM_MEMBERS(GPS_GSA_IN	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	196;"	d	line:196	file:
+GPS_GSV	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	64;"	s	line:64
+GPS_INDEX	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	40;"	v	line:40
+GPS_RMC	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	73;"	s	line:73
+GPS_RMC_CONV	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	154;"	v	line:154
+GPS_RMC_INDEX	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	140;"	v	line:140
+GPS_RMC_LEN::GET_VEC_NUM_MEMBERS(GPS_RMC_IN	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	198;"	d	line:198	file:
+GPS_RST::LATCbits.LATC2	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\ports.h	11;"	d	line:11
+GPS_RST_DIR::TRISCbits.TRISC2	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\ports.h	12;"	d	line:12
+GPS_RX::LATCbits.LATC7	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\ports.h	8;"	d	line:8
+GPS_RX_CR::8	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	28;"	d	line:28	file:
+GPS_RX_CS1::7	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	26;"	d	line:26	file:
+GPS_RX_CS2::10	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	27;"	d	line:27	file:
+GPS_RX_DATA::6	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	25;"	d	line:25	file:
+GPS_RX_DIR::TRISCbits.TRISC7	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\ports.h	10;"	d	line:10
+GPS_RX_LF::9	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	29;"	d	line:29	file:
+GPS_RX_PT_1::1	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	20;"	d	line:20	file:
+GPS_RX_PT_2::2	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	21;"	d	line:21	file:
+GPS_RX_PT_3::3	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	22;"	d	line:22	file:
+GPS_RX_PT_4::4	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	23;"	d	line:23	file:
+GPS_RX_PT_5::5	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	24;"	d	line:24	file:
+GPS_RX_ST::0	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	19;"	d	line:19	file:
+GPS_SAT	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	57;"	s	line:57
+GPS_STRUCT_LEN	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	203;"	v	line:203
+GPS_TX::LATCbits.LATC6	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\ports.h	7;"	d	line:7
+GPS_TX_DIR::TRISCbits.TRISC6	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\ports.h	9;"	d	line:9
+GPS_VELO	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	94;"	s	line:94
+GPS_VTG	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	99;"	s	line:99
+GPS_VTG_CONV	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	182;"	v	line:182
+GPS_VTG_INDEX	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	170;"	v	line:170
+GPS_VTG_LEN::GET_VEC_NUM_MEMBERS(GPS_VTG_IN	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	199;"	d	line:199	file:
+GPVTG	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	11;"	e	line:11	enum:__GPSPROTO
+GeoidSep	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	28;"	m	line:28	struct:GPS_GGA
+GeoidUnit	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	29;"	m	line:29	struct:GPS_GGA
+GetSerialBaudRate	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\serial.c	115;"	f	line:115	signature:( void )
+GetSerialBaudRate	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\serial.h	65;"	p	line:65	signature:( void )
+GetSerialParidade	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\serial.c	127;"	f	line:127	signature:( void )
+GetSerialParidade	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\serial.h	77;"	p	line:77	signature:( void )
+GetSerialStopBits	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\serial.c	121;"	f	line:121	signature:( void )
+GetSerialStopBits	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\serial.h	71;"	p	line:71	signature:( void )
+GetStreamGPS	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	244;"	p	line:244	file:	signature:( void )
+GetStreamGPS	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	309;"	f	line:309	signature:( void )
+GetTickCount	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\timer.c	83;"	f	line:83	signature:( void )
+GetTickCount	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\timer.h	22;"	p	line:22	signature:( void )
+GetTimer	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\timer.c	95;"	f	line:95	signature:( DWORD dwTime )
+GetTimer	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\timer.h	29;"	p	line:29	signature:( DWORD dwTime )
+HDOP	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	25;"	m	line:25	struct:GPS_GGA
+INTERFACE8	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\LCD.C	44;"	d	line:44	file:
+IncTickCount	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\timer.c	89;"	f	line:89	signature:( void )
+IncTickCount	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\timer.h	47;"	p	line:47	signature:( void )
+InitGPS	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	249;"	f	line:249	signature:( void )
+InitGPS	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	113;"	p	line:113	signature:( void )
+InitSerial	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\serial.c	57;"	f	line:57	signature:( BYTE port, BYTE baudRate, BYTE stopBits, BYTE par, SERIALCOMFUNC* func )
+InitSerial	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\serial.h	59;"	p	line:59	signature:( BYTE port, BYTE baudRate, BYTE stopBits, BYTE par, SERIALCOMFUNC* func )
+InitTimer	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\timer.c	52;"	f	line:52	signature:( void )
+InitTimer	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\timer.h	16;"	p	line:16	signature:( void )
+Int2Baud	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\serial.h	115;"	p	line:115	signature:( DWORD baud )
+InterruptHandler	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\interrupt.c	17;"	f	line:17	signature:( void )
+InterruptHandler	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\interrupt.h	12;"	p	line:12	signature:( void )
+InterruptHandlerLow	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\interrupt.c	58;"	f	line:58	signature:( void )
+InterruptHandlerLow	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\interrupt.h	13;"	p	line:13	signature:( void )
+IsTimerTimeOut	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\timer.c	133;"	f	line:133	signature:( BYTE handle )
+IsTimerTimeOut	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\timer.h	42;"	p	line:42	signature:( BYTE handle )
+LCD_GotoXY	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\LCD.C	185;"	f	line:185	signature:( BYTE x, BYTE y)
+LCD_GotoXY	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\lcd.h	60;"	p	line:60	signature:( BYTE x, BYTE y)
+LCD_Init	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\LCD.C	124;"	f	line:124
+LCD_Init	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\lcd.h	50;"	p	line:50	signature:( void )
+LCD_Init_STRING	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\LCD.C	74;"	v	line:74
+LCD_Init_STRING	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\LCD.C	76;"	v	line:76
+LCD_PORT::LATD	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\lcd.h	11;"	d	line:11
+LCD_SendCmd::(x)LCD_Send_Byte(0,x)	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\lcd.h	64;"	d	line:64
+LCD_SendData::(x)LCD_Send_Byte(1,x)	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\lcd.h	65;"	d	line:65
+LCD_Send_Byte	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\LCD.C	99;"	f	line:99	signature:( BYTE isCmd, BYTE n )
+LCD_Send_Byte	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\lcd.h	62;"	p	line:62	signature:( BYTE isCmd, BYTE n )
+LCD_Send_Nibble	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\LCD.C	91;"	f	line:91	signature:( BYTE n )
+LCD_putc	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\LCD.C	212;"	f	line:212	signature:( char c)
+LCD_putc	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\lcd.h	57;"	p	line:57	signature:( char c )
+LINES_5X7::0b00111011	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\lcd.h	43;"	d	line:43
+LINE_5X10::0b00110111	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\lcd.h	42;"	d	line:42
+LINE_5X7::0b00110011	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\lcd.h	41;"	d	line:41
+MAX_CHARS::ROW*COLUMNS	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\LCD.C	50;"	d	line:50	file:
+MAX_COLUMNS::16	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\LCD.C	49;"	d	line:49	file:
+MAX_ROWS::2	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\LCD.C	48;"	d	line:48	file:
+MSLAlt	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	26;"	m	line:26	struct:GPS_GGA
+MSLUnit	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	27;"	m	line:27	struct:GPS_GGA
+NMEA_END_FRAME::'*'	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	16;"	d	line:16	file:
+NMEA_INI_FRAME::'$'	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	15;"	d	line:15	file:
+NTIMER::32	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\timer.c	11;"	d	line:11	file:
+OpenGPS	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	286;"	f	line:286	signature:( void )
+OpenGPS	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	118;"	p	line:118	signature:( void )
+PARAM_SCLASS::auto	C:\mcc18\h\ctype.h	10;"	d	line:10
+PARAM_SCLASS::static	C:\mcc18\h\ctype.h	12;"	d	line:12
+PLL::4	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\processor.h	10;"	d	line:10
+PR_EVEN	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\serial.h	18;"	e	line:18	enum:COM_Parity
+PR_NONE	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\serial.h	16;"	e	line:16	enum:COM_Parity
+PR_ODD	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\serial.h	17;"	e	line:17	enum:COM_Parity
+ParseBuffer	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	245;"	p	line:245	file:	signature:( char * cGPSBuffer, void * lpGPSProto )
+ParseBuffer	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	550;"	f	line:550	signature:( char * cGPSBuffer, void * lpGPSProto )
+RS_PIN::LATEbits.LATE0	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\lcd.h	18;"	d	line:18
+ReceiveOff	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\serial.c	152;"	f	line:152	signature:( void )
+ReceiveOff	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\serial.h	94;"	p	line:94	signature:( void )
+ReceiveOn	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\serial.c	163;"	f	line:163	signature:( void )
+ReceiveOn	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\serial.h	100;"	p	line:100	signature:( void )
+ReleaseTimer	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\timer.c	117;"	f	line:117	signature:( BYTE * handle )
+ReleaseTimer	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\timer.h	35;"	p	line:35	signature:( BYTE * handle )
+ResetGPS	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	300;"	f	line:300	signature:( void )
+ResetGPS	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	128;"	p	line:128	signature:( void )
+SERIALCOMFUNC	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\serial.h	47;"	t	line:47
+SHIFT_CUR_LEFT::0b00010011	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\lcd.h	33;"	d	line:33
+SHIFT_CUR_RIGHT::0b00010111	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\lcd.h	34;"	d	line:34
+SHIFT_DISP_LEFT::0b00011011	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\lcd.h	35;"	d	line:35
+SHIFT_DISP_RIGHT::0b00011111	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\lcd.h	36;"	d	line:36
+ST_1	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\serial.h	40;"	e	line:40	enum:COM_StopBits
+ST_2	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\serial.h	41;"	e	line:41	enum:COM_StopBits
+SerialGetchar	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\serial.c	133;"	f	line:133	signature:( void )
+SerialGetchar	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\serial.h	83;"	p	line:83	signature:( void )
+SerialPutc	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\serial.c	139;"	f	line:139	signature:( BYTE c )
+SerialPutc	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\serial.h	89;"	p	line:89	signature:( BYTE c )
+T2POST_1_10::9	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\timer.c	26;"	d	line:26	file:
+T2POST_1_11::10	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\timer.c	27;"	d	line:27	file:
+T2POST_1_12::11	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\timer.c	28;"	d	line:28	file:
+T2POST_1_13::12	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\timer.c	29;"	d	line:29	file:
+T2POST_1_14::13	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\timer.c	30;"	d	line:30	file:
+T2POST_1_15::14	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\timer.c	31;"	d	line:31	file:
+T2POST_1_16::15	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\timer.c	32;"	d	line:32	file:
+T2POST_1_1::0	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\timer.c	17;"	d	line:17	file:
+T2POST_1_2::1	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\timer.c	18;"	d	line:18	file:
+T2POST_1_3::2	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\timer.c	19;"	d	line:19	file:
+T2POST_1_4::3	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\timer.c	20;"	d	line:20	file:
+T2POST_1_5::4	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\timer.c	21;"	d	line:21	file:
+T2POST_1_6::5	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\timer.c	22;"	d	line:22	file:
+T2POST_1_7::6	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\timer.c	23;"	d	line:23	file:
+T2POST_1_8::7	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\timer.c	24;"	d	line:24	file:
+T2POST_1_9::8	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\timer.c	25;"	d	line:25	file:
+T2PRE_1_16::3	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\timer.c	37;"	d	line:37	file:
+T2PRE_1_1::0	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\timer.c	35;"	d	line:35	file:
+T2PRE_1_4::1	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\timer.c	36;"	d	line:36	file:
+TICK_VALUE::1	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\timer.c	14;"	d	line:14	file:
+TRIS_E::TRISEbits.TRISE1	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\lcd.h	21;"	d	line:21
+TRIS_LCD_PORT::TRISD	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\lcd.h	12;"	d	line:12
+TRIS_RS::TRISEbits.TRISE0	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\lcd.h	19;"	d	line:19
+TRUE::1	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\defs.h	13;"	d	line:13
+Timer	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\timer.c	41;"	s	line:41	file:
+UINT	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\defs.h	10;"	t	line:10
+ULONG	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\defs.h	9;"	t	line:9
+UTCPos	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	40;"	m	line:40	struct:GPS_GLL
+WORD	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\defs.h	7;"	t	line:7
+XTAL::8000000	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\processor.h	9;"	d	line:9
+__CTYPE_H	C:\mcc18\h\ctype.h	2;"	d	line:2
+__DEFS__	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\defs.h	2;"	d	line:2
+__DELAY__	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\delay.h	9;"	d	line:9
+__FUNCOES__	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\funcoes.h	2;"	d	line:2
+__GPSPROTO	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	6;"	g	line:6
+__GPS__	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	2;"	d	line:2
+__INTERUPT__	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\interrupt.h	8;"	d	line:8
+__LCD_H__	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\lcd.h	2;"	d	line:2
+__PORTS__	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\ports.h	2;"	d	line:2
+__PROCESSOR__	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\processor.h	2;"	d	line:2
+__SERIAL__	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\serial.h	8;"	d	line:8
+__TIMER__	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\timer.h	8;"	d	line:8
+_user_putc	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\LCD.C	80;"	f	line:80	signature:(char c)
+address	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\LCD.C	186;"	l	line:186
+ascii2int	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\funcoes.c	4;"	f	line:4	signature:( BYTE asciiChar )
+ascii2int	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\funcoes.h	8;"	p	line:8	signature:( BYTE asciiChar )
+azimuth	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	60;"	m	line:60	struct:GPS_SAT
+bCalcChecSum	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	233;"	v	line:233
+bChar	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\funcoes.c	5;"	l	line:5
+bError	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	311;"	l	line:311
+bRCVChecSum	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	234;"	v	line:234
+bTime	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\delay.c	6;"	l	line:6
+bTimer	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\timer.c	42;"	m	line:42	struct:Timer	file:
+bTmp	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	463;"	l	line:463
+btmp	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	512;"	l	line:512
+cBuffer	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	552;"	l	line:552
+cBuffer	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\main.c	39;"	l	line:39
+cSerialBaudRate	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\serial.c	51;"	v	line:51
+cSerialParidade	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\serial.c	53;"	v	line:53
+cSerialStopBits	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\serial.c	52;"	v	line:52
+checksum	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	106;"	m	line:106	struct:GPS_VTG
+checksum	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	31;"	m	line:31	struct:GPS_GGA
+checksum	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	42;"	m	line:42	struct:GPS_GLL
+checksum	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	53;"	m	line:53	struct:GPS_GSA
+checksum	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	70;"	m	line:70	struct:GPS_GSV
+checksum	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	86;"	m	line:86	struct:GPS_RMC
+course	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	90;"	m	line:90	struct:GPS_COURSE
+course1	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	102;"	m	line:102	struct:GPS_VTG
+course2	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	103;"	m	line:103	struct:GPS_VTG
+courseOverGround	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	83;"	m	line:83	struct:GPS_RMC
+date	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	84;"	m	line:84	struct:GPS_RMC
+delay	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\delay.c	5;"	f	line:5	signature:( DWORD dwTime )
+delay	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\delay.h	17;"	p	line:17	signature:( DWORD dwTime )
+dwTickCount	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\timer.c	47;"	v	line:47
+dwTime	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\timer.c	43;"	m	line:43	struct:Timer	file:
+elevation	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	59;"	m	line:59	struct:GPS_SAT
+gpsBuffer	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	513;"	l	line:513
+gpsCheckSum	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	232;"	v	line:232
+gpsData	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	310;"	l	line:310
+gpsDataBuffer	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	227;"	v	line:227
+gpsDataCounter	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	229;"	v	line:229
+gpsDataReady	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	239;"	v	line:239
+gpsFirst	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	238;"	v	line:238
+gpsGGA	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	33;"	v	line:33
+gpsGLL	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	38;"	v	line:38
+gpsGSA	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	34;"	v	line:34
+gpsGSV	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	35;"	v	line:35
+gpsLastProt	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	240;"	v	line:240
+gpsMsgProc	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	231;"	v	line:231
+gpsProto	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	514;"	l	line:514
+gpsProtocol	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	511;"	l	line:511
+gpsRMC	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	36;"	v	line:36
+gpsRXState	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	230;"	v	line:230
+gpsTmpBuffer	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	228;"	v	line:228
+gpsVTG	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	37;"	v	line:37
+hdop	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	51;"	m	line:51	struct:GPS_GSA
+i	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\LCD.C	125;"	l	line:125
+i	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	556;"	l	line:556
+i	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\main.c	38;"	l	line:38
+i	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\serial.c	60;"	l	line:60
+i	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\timer.c	96;"	l	line:96
+iFieldLen	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	558;"	l	line:558
+indEW	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	22;"	m	line:22	struct:GPS_GGA
+indEW	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	39;"	m	line:39	struct:GPS_GLL
+indEW	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	81;"	m	line:81	struct:GPS_RMC
+indNS	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	20;"	m	line:20	struct:GPS_GGA
+indNS	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	37;"	m	line:37	struct:GPS_GLL
+indNS	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	79;"	m	line:79	struct:GPS_RMC
+interrupt_at_high_vector	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\interrupt.c	9;"	f	line:9	signature:(void)
+interrupt_at_low_vector	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\interrupt.c	50;"	f	line:50	signature:(void)
+isalnum	C:\mcc18\h\ctype.h	29;"	p	line:29	signature:(PARAM_SCLASS int c)
+isalnum	C:\mcc18\h\ctype.h	31;"	p	line:31	signature:(PARAM_SCLASS char)
+isalpha	C:\mcc18\h\ctype.h	40;"	p	line:40	signature:(PARAM_SCLASS int c)
+isalpha	C:\mcc18\h\ctype.h	42;"	p	line:42	signature:(PARAM_SCLASS char)
+isascii	C:\mcc18\h\ctype.h	52;"	p	line:52	signature:(PARAM_SCLASS char)
+iscntrl	C:\mcc18\h\ctype.h	61;"	p	line:61	signature:(PARAM_SCLASS int c)
+iscntrl	C:\mcc18\h\ctype.h	63;"	p	line:63	signature:(PARAM_SCLASS char)
+isdigit	C:\mcc18\h\ctype.h	72;"	p	line:72	signature:(PARAM_SCLASS int c)
+isdigit	C:\mcc18\h\ctype.h	74;"	p	line:74	signature:(PARAM_SCLASS char)
+isgraph	C:\mcc18\h\ctype.h	83;"	p	line:83	signature:(PARAM_SCLASS int c)
+islower	C:\mcc18\h\ctype.h	92;"	p	line:92	signature:(PARAM_SCLASS int c)
+islower	C:\mcc18\h\ctype.h	94;"	p	line:94	signature:(PARAM_SCLASS char)
+isprint	C:\mcc18\h\ctype.h	103;"	p	line:103	signature:(PARAM_SCLASS int c)
+ispunct	C:\mcc18\h\ctype.h	112;"	p	line:112	signature:(PARAM_SCLASS int c)
+isrSerialFunc	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\serial.c	48;"	v	line:48
+isspace	C:\mcc18\h\ctype.h	122;"	p	line:122	signature:(PARAM_SCLASS int c)
+isupper	C:\mcc18\h\ctype.h	131;"	p	line:131	signature:(PARAM_SCLASS int c)
+isupper	C:\mcc18\h\ctype.h	133;"	p	line:133	signature:(PARAM_SCLASS char)
+isxdigit	C:\mcc18\h\ctype.h	143;"	p	line:143	signature:(PARAM_SCLASS int c)
+isxdigit	C:\mcc18\h\ctype.h	145;"	p	line:145	signature:(PARAM_SCLASS char)
+latitude	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	19;"	m	line:19	struct:GPS_GGA
+latitude	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	36;"	m	line:36	struct:GPS_GLL
+latitude	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	78;"	m	line:78	struct:GPS_RMC
+lcd_line_two::0x40	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\LCD.C	58;"	d	line:58	file:
+lcd_type::2	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\LCD.C	55;"	d	line:55	file:
+lcd_x	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\LCD.C	86;"	v	line:86
+lcd_y	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\LCD.C	87;"	v	line:87
+longitude	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	21;"	m	line:21	struct:GPS_GGA
+longitude	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	38;"	m	line:38	struct:GPS_GLL
+longitude	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	80;"	m	line:80	struct:GPS_RMC
+magVariation	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	85;"	m	line:85	struct:GPS_RMC
+main	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\main.c	37;"	f	line:37	signature:( void )
+mode1	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	47;"	m	line:47	struct:GPS_GSA
+mode2	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	48;"	m	line:48	struct:GPS_GSA
+msgNumber	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	67;"	m	line:67	struct:GPS_GSV
+numberOfMsg	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	66;"	m	line:66	struct:GPS_GSV
+pChar	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	553;"	l	line:553
+pEnd	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	555;"	l	line:555
+pIni	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	554;"	l	line:554
+pdop	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	50;"	m	line:50	struct:GPS_GSA
+proto	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	551;"	l	line:551
+proto	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	100;"	m	line:100	struct:GPS_VTG
+proto	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	17;"	m	line:17	struct:GPS_GGA
+proto	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	35;"	m	line:35	struct:GPS_GLL
+proto	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	46;"	m	line:46	struct:GPS_GSA
+proto	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	65;"	m	line:65	struct:GPS_GSV
+proto	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	74;"	m	line:74	struct:GPS_RMC
+ref	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	91;"	m	line:91	struct:GPS_COURSE
+satID	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	58;"	m	line:58	struct:GPS_SAT
+satInView	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	68;"	m	line:68	struct:GPS_GSV
+satUsed	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	49;"	m	line:49	struct:GPS_GSA
+satelitesUsed	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	24;"	m	line:24	struct:GPS_GGA
+satellite	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	69;"	m	line:69	struct:GPS_GSV
+snr	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	61;"	m	line:61	struct:GPS_SAT
+speedOverGround	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	82;"	m	line:82	struct:GPS_RMC
+speedy	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	95;"	m	line:95	struct:GPS_VELO
+status	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	41;"	m	line:41	struct:GPS_GLL
+status	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	77;"	m	line:77	struct:GPS_RMC
+timer	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\timer.c	46;"	v	line:46
+tmInit	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\timer.c	48;"	v	line:48
+toascii	C:\mcc18\h\ctype.h	160;"	p	line:160	signature:(PARAM_SCLASS char)
+tolower	C:\mcc18\h\ctype.h	171;"	p	line:171	signature:(PARAM_SCLASS int c)
+tolower	C:\mcc18\h\ctype.h	173;"	p	line:173	signature:(PARAM_SCLASS char)
+total	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.c	557;"	l	line:557
+toupper	C:\mcc18\h\ctype.h	184;"	p	line:184	signature:(PARAM_SCLASS int c)
+toupper	C:\mcc18\h\ctype.h	186;"	p	line:186	signature:(PARAM_SCLASS char)
+unit	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	96;"	m	line:96	struct:GPS_VELO
+utcTime	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	18;"	m	line:18	struct:GPS_GGA
+utcTime	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	76;"	m	line:76	struct:GPS_RMC
+vdop	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	52;"	m	line:52	struct:GPS_GSA
+vel1	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	104;"	m	line:104	struct:GPS_VTG
+vel2	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\gps.h	105;"	m	line:105	struct:GPS_VTG
+wTmp	C:\sources\senai\projetos\curso - 628\exemplos\testeICD\serial.c	59;"	l	line:59

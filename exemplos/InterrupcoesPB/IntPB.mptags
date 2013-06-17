@@ -1,0 +1,51 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+!_TAG_REVISION_NAME	MCHPTags	//
+!_TAG_REVISION_VERSION	6.0.1	//
+B_REG	C:\sources\senai\projetos\curso - 628\exemplos\InterrupcoesPB\math.asm	15;"	v	line:15
+COUNT	C:\sources\senai\projetos\curso - 628\exemplos\InterrupcoesPB\main.asm	25;"	v	line:25
+ConfigINT0	C:\sources\senai\projetos\curso - 628\exemplos\InterrupcoesPB\main.asm	84;"	l	line:84
+DESLIGA_LED_DELAY	C:\sources\senai\projetos\curso - 628\exemplos\InterrupcoesPB\main.asm	176;"	l	line:176
+DIV_8	C:\sources\senai\projetos\curso - 628\exemplos\InterrupcoesPB\math.asm	89;"	l	line:89
+DIV_8_END_RESTO	C:\sources\senai\projetos\curso - 628\exemplos\InterrupcoesPB\math.asm	135;"	l	line:135
+DIV_8_LOOP	C:\sources\senai\projetos\curso - 628\exemplos\InterrupcoesPB\math.asm	105;"	l	line:105
+Delay_1ms	C:\sources\senai\projetos\curso - 628\exemplos\InterrupcoesPB\delay.asm	29;"	l	line:29
+Delay_500ms	C:\sources\senai\projetos\curso - 628\exemplos\InterrupcoesPB\delay.asm	48;"	l	line:48
+END_CSTR	C:\sources\senai\projetos\curso - 628\exemplos\InterrupcoesPB\main.asm	15;"	q	line:15
+I	C:\sources\senai\projetos\curso - 628\exemplos\InterrupcoesPB\delay.asm	16;"	v	line:16
+INTERR	C:\sources\senai\projetos\curso - 628\exemplos\InterrupcoesPB\main.asm	52;"	l	line:52
+Int2BCD	C:\sources\senai\projetos\curso - 628\exemplos\InterrupcoesPB\funcoes.asm	61;"	l	line:61
+J	C:\sources\senai\projetos\curso - 628\exemplos\InterrupcoesPB\delay.asm	17;"	v	line:17
+K	C:\sources\senai\projetos\curso - 628\exemplos\InterrupcoesPB\delay.asm	18;"	v	line:18
+LED_DELAY	C:\sources\senai\projetos\curso - 628\exemplos\InterrupcoesPB\main.asm	18;"	q	line:18
+LED_INT0	C:\sources\senai\projetos\curso - 628\exemplos\InterrupcoesPB\main.asm	17;"	q	line:17
+LIGA_LED_DELAY	C:\sources\senai\projetos\curso - 628\exemplos\InterrupcoesPB\main.asm	173;"	l	line:173
+LTMP	C:\sources\senai\projetos\curso - 628\exemplos\InterrupcoesPB\math.asm	21;"	v	line:21
+MAIN	C:\sources\senai\projetos\curso - 628\exemplos\InterrupcoesPB\main.asm	45;"	l	line:45
+MSG_TESTE	C:\sources\senai\projetos\curso - 628\exemplos\InterrupcoesPB\main.asm	214;"	v	line:214
+MSG_TESTE_END	C:\sources\senai\projetos\curso - 628\exemplos\InterrupcoesPB\main.asm	209;"	l	line:209
+MSG_TESTE_NEXT	C:\sources\senai\projetos\curso - 628\exemplos\InterrupcoesPB\main.asm	201;"	l	line:201
+MSG_TESTE_READ	C:\sources\senai\projetos\curso - 628\exemplos\InterrupcoesPB\main.asm	186;"	l	line:186
+MUL_8	C:\sources\senai\projetos\curso - 628\exemplos\InterrupcoesPB\math.asm	34;"	l	line:34
+MUL_8_END	C:\sources\senai\projetos\curso - 628\exemplos\InterrupcoesPB\math.asm	69;"	l	line:69
+MUL_8_LOOP	C:\sources\senai\projetos\curso - 628\exemplos\InterrupcoesPB\math.asm	44;"	l	line:44
+OFF_LED_INT0	C:\sources\senai\projetos\curso - 628\exemplos\InterrupcoesPB\main.asm	103;"	l	line:103
+ON_LED_INT0	C:\sources\senai\projetos\curso - 628\exemplos\InterrupcoesPB\main.asm	100;"	l	line:100
+SAI_CTRL_LED_DELAY	C:\sources\senai\projetos\curso - 628\exemplos\InterrupcoesPB\main.asm	179;"	l	line:179
+SAI_CTRL_LED_INT0	C:\sources\senai\projetos\curso - 628\exemplos\InterrupcoesPB\main.asm	106;"	l	line:106
+STATUS_TEMP	C:\sources\senai\projetos\curso - 628\exemplos\InterrupcoesPB\main.asm	24;"	v	line:24
+TBL_PTR	C:\sources\senai\projetos\curso - 628\exemplos\InterrupcoesPB\funcoes.asm	19;"	v	line:19
+TBL_Read	C:\sources\senai\projetos\curso - 628\exemplos\InterrupcoesPB\funcoes.asm	37;"	l	line:37
+TMP	C:\sources\senai\projetos\curso - 628\exemplos\InterrupcoesPB\main.asm	26;"	v	line:26
+TrataINT0	C:\sources\senai\projetos\curso - 628\exemplos\InterrupcoesPB\main.asm	95;"	l	line:95
+TrataRBInt	C:\sources\senai\projetos\curso - 628\exemplos\InterrupcoesPB\main.asm	112;"	l	line:112
+W_TEMP	C:\sources\senai\projetos\curso - 628\exemplos\InterrupcoesPB\funcoes.asm	22;"	v	line:22
+W_TEMP	C:\sources\senai\projetos\curso - 628\exemplos\InterrupcoesPB\main.asm	23;"	v	line:23
+W_TEMP	C:\sources\senai\projetos\curso - 628\exemplos\InterrupcoesPB\math.asm	19;"	v	line:19
+iCount	C:\sources\senai\projetos\curso - 628\exemplos\InterrupcoesPB\math.asm	20;"	v	line:20
+inicio	C:\sources\senai\projetos\curso - 628\exemplos\InterrupcoesPB\main.asm	116;"	l	line:116
+loop_principal	C:\sources\senai\projetos\curso - 628\exemplos\InterrupcoesPB\main.asm	159;"	l	line:159

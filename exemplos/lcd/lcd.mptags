@@ -1,0 +1,45 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+!_TAG_REVISION_NAME	MCHPTags	//
+!_TAG_REVISION_VERSION	6.0.1	//
+BUSY_CHECK	C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM	126;"	l	line:126
+CMD_LCD	C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM	150;"	l	line:150
+DATA_LCD	C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM	159;"	l	line:159
+INIT_LCD	C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM	83;"	l	line:83
+INNER_LOOP	C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM	378;"	l	line:378
+LCD_BUSY	C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM	25;"	q	line:25
+LCD_EN	C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM	26;"	q	line:26
+LCD_IS_BUSY	C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM	135;"	l	line:135
+LCD_RS	C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM	28;"	q	line:28
+LCD_RW	C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM	27;"	q	line:27
+NOT_BUSY	C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM	143;"	l	line:143
+OUTER_LOOP	C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM	375;"	l	line:375
+PRINCIPAL	C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM	57;"	l	line:57
+RESET	C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM	41;"	l	line:41
+START	C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM	45;"	l	line:45
+WAIT_100US	C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM	336;"	l	line:336
+WAIT_10US	C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM	321;"	l	line:321
+WAIT_128MS	C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM	294;"	l	line:294
+WAIT_16MS	C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM	305;"	l	line:305
+WAIT_1MS	C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM	356;"	l	line:356
+WAIT_200US	C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM	344;"	l	line:344
+WAIT_256MS	C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM	290;"	l	line:290
+WAIT_25US	C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM	325;"	l	line:325
+WAIT_2MS	C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM	362;"	l	line:362
+WAIT_32MS	C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM	301;"	l	line:301
+WAIT_4MS	C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM	313;"	l	line:313
+WAIT_500US	C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM	350;"	l	line:350
+WAIT_50US	C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM	330;"	l	line:330
+WAIT_5US	C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM	318;"	l	line:318
+WAIT_64MS	C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM	298;"	l	line:298
+WAIT_8MS	C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM	309;"	l	line:309
+WAIT_A_SEC	C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM	281;"	l	line:281
+WAIT_HALF_SEC	C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM	287;"	l	line:287
+WAIT_XUS	C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM	370;"	l	line:370
+WRITE_LCD	C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM	163;"	l	line:163
+WRITE_MENU_LINE1	C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM	197;"	l	line:197
+WRITE_MENU_LINE2	C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM	238;"	l	line:238

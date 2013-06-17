@@ -1,0 +1,102 @@
+MPLINK 4.30.01, Linker
+Linker Map File - Created Sat Aug 15 15:30:13 2009
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .cinit    romdata   0x000000    program   0x000004
+                    .code       code   0x000002    program   0x0001fc
+                   .udata      udata   0x000120       data   0x000008
+               .udata_ovr      udata   0x000128       data   0x000004
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x0000ff      
+            256 out of 2183 program addresses used, program memory utilization is 11%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                  BCD2Int   0x00004e    program     extern E:\senai\projetos\curso - 628\exemplos\ex3\funcoes.asm
+                    DIV_8   0x0000c6    program     extern E:\senai\projetos\curso - 628\exemplos\ex3\math.asm
+    DIV_8_END_DIV.EQ.DIVD   0x0000f3    program     static E:\senai\projetos\curso - 628\exemplos\ex3\math.asm
+    DIV_8_END_DIV.GT.DIVD   0x0000f8    program     static E:\senai\projetos\curso - 628\exemplos\ex3\math.asm
+          DIV_8_END_RESTO   0x0000e9    program     static E:\senai\projetos\curso - 628\exemplos\ex3\math.asm
+               DIV_8_LOOP   0x0000d3    program     static E:\senai\projetos\curso - 628\exemplos\ex3\math.asm
+                Delay_1ms   0x000002    program     extern E:\senai\projetos\curso - 628\exemplos\ex3\delay.asm
+              Delay_500ms   0x000014    program     extern E:\senai\projetos\curso - 628\exemplos\ex3\delay.asm
+                Delay_Xms   0x00000d    program     extern E:\senai\projetos\curso - 628\exemplos\ex3\delay.asm
+               InitTimer0   0x000067    program     extern E:\senai\projetos\curso - 628\exemplos\ex3\timer0.asm
+                  Int2BCD   0x000030    program     extern E:\senai\projetos\curso - 628\exemplos\ex3\funcoes.asm
+                    MUL_8   0x00009e    program     extern E:\senai\projetos\curso - 628\exemplos\ex3\math.asm
+                MUL_8_END   0x0000bc    program     static E:\senai\projetos\curso - 628\exemplos\ex3\math.asm
+               MUL_8_LOOP   0x0000a8    program     static E:\senai\projetos\curso - 628\exemplos\ex3\math.asm
+                 TBL_Read   0x000026    program     extern E:\senai\projetos\curso - 628\exemplos\ex3\funcoes.asm
+              TrataTimer0   0x000080    program     extern E:\senai\projetos\curso - 628\exemplos\ex3\timer0.asm
+          TrataTimer0_END   0x00009c    program     static E:\senai\projetos\curso - 628\exemplos\ex3\timer0.asm
+              _.code_0007   0x000009    program     static E:\senai\projetos\curso - 628\exemplos\ex3\delay.asm
+              _.code_0009   0x00000b    program     static E:\senai\projetos\curso - 628\exemplos\ex3\delay.asm
+              _.code_0010   0x000012    program     static E:\senai\projetos\curso - 628\exemplos\ex3\delay.asm
+              _.code_001D   0x00001f    program     static E:\senai\projetos\curso - 628\exemplos\ex3\delay.asm
+              _.code_0022   0x000024    program     static E:\senai\projetos\curso - 628\exemplos\ex3\delay.asm
+              _.code_0025   0x00008c    program     static E:\senai\projetos\curso - 628\exemplos\ex3\timer0.asm
+              _.code_002A   0x000091    program     static E:\senai\projetos\curso - 628\exemplos\ex3\timer0.asm
+                    B_REG   0x000126       data     extern E:\senai\projetos\curso - 628\exemplos\ex3\math.asm
+                        I   0x000128       data     static E:\senai\projetos\curso - 628\exemplos\ex3\delay.asm
+                        J   0x000129       data     static E:\senai\projetos\curso - 628\exemplos\ex3\delay.asm
+                        K   0x00012a       data     static E:\senai\projetos\curso - 628\exemplos\ex3\delay.asm
+                     LTMP   0x000129       data     static E:\senai\projetos\curso - 628\exemplos\ex3\math.asm
+                  TBL_PTR   0x000120       data     extern E:\senai\projetos\curso - 628\exemplos\ex3\funcoes.asm
+                   W_TEMP   0x000122       data     static E:\senai\projetos\curso - 628\exemplos\ex3\funcoes.asm
+                   W_TEMP   0x000127       data     static E:\senai\projetos\curso - 628\exemplos\ex3\math.asm
+                   iCount   0x000128       data     static E:\senai\projetos\curso - 628\exemplos\ex3\math.asm
+             iEvntCounter   0x000123       data     static E:\senai\projetos\curso - 628\exemplos\ex3\timer0.asm
+              iSecCounter   0x000125       data     extern E:\senai\projetos\curso - 628\exemplos\ex3\timer0.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                Delay_1ms   0x000002    program     extern E:\senai\projetos\curso - 628\exemplos\ex3\delay.asm
+              _.code_0007   0x000009    program     static E:\senai\projetos\curso - 628\exemplos\ex3\delay.asm
+              _.code_0009   0x00000b    program     static E:\senai\projetos\curso - 628\exemplos\ex3\delay.asm
+                Delay_Xms   0x00000d    program     extern E:\senai\projetos\curso - 628\exemplos\ex3\delay.asm
+              _.code_0010   0x000012    program     static E:\senai\projetos\curso - 628\exemplos\ex3\delay.asm
+              Delay_500ms   0x000014    program     extern E:\senai\projetos\curso - 628\exemplos\ex3\delay.asm
+              _.code_001D   0x00001f    program     static E:\senai\projetos\curso - 628\exemplos\ex3\delay.asm
+              _.code_0022   0x000024    program     static E:\senai\projetos\curso - 628\exemplos\ex3\delay.asm
+                 TBL_Read   0x000026    program     extern E:\senai\projetos\curso - 628\exemplos\ex3\funcoes.asm
+                  Int2BCD   0x000030    program     extern E:\senai\projetos\curso - 628\exemplos\ex3\funcoes.asm
+                  BCD2Int   0x00004e    program     extern E:\senai\projetos\curso - 628\exemplos\ex3\funcoes.asm
+               InitTimer0   0x000067    program     extern E:\senai\projetos\curso - 628\exemplos\ex3\timer0.asm
+              TrataTimer0   0x000080    program     extern E:\senai\projetos\curso - 628\exemplos\ex3\timer0.asm
+              _.code_0025   0x00008c    program     static E:\senai\projetos\curso - 628\exemplos\ex3\timer0.asm
+              _.code_002A   0x000091    program     static E:\senai\projetos\curso - 628\exemplos\ex3\timer0.asm
+          TrataTimer0_END   0x00009c    program     static E:\senai\projetos\curso - 628\exemplos\ex3\timer0.asm
+                    MUL_8   0x00009e    program     extern E:\senai\projetos\curso - 628\exemplos\ex3\math.asm
+               MUL_8_LOOP   0x0000a8    program     static E:\senai\projetos\curso - 628\exemplos\ex3\math.asm
+                MUL_8_END   0x0000bc    program     static E:\senai\projetos\curso - 628\exemplos\ex3\math.asm
+                    DIV_8   0x0000c6    program     extern E:\senai\projetos\curso - 628\exemplos\ex3\math.asm
+               DIV_8_LOOP   0x0000d3    program     static E:\senai\projetos\curso - 628\exemplos\ex3\math.asm
+          DIV_8_END_RESTO   0x0000e9    program     static E:\senai\projetos\curso - 628\exemplos\ex3\math.asm
+    DIV_8_END_DIV.EQ.DIVD   0x0000f3    program     static E:\senai\projetos\curso - 628\exemplos\ex3\math.asm
+    DIV_8_END_DIV.GT.DIVD   0x0000f8    program     static E:\senai\projetos\curso - 628\exemplos\ex3\math.asm
+                  TBL_PTR   0x000120       data     extern E:\senai\projetos\curso - 628\exemplos\ex3\funcoes.asm
+                   W_TEMP   0x000122       data     static E:\senai\projetos\curso - 628\exemplos\ex3\funcoes.asm
+             iEvntCounter   0x000123       data     static E:\senai\projetos\curso - 628\exemplos\ex3\timer0.asm
+              iSecCounter   0x000125       data     extern E:\senai\projetos\curso - 628\exemplos\ex3\timer0.asm
+                    B_REG   0x000126       data     extern E:\senai\projetos\curso - 628\exemplos\ex3\math.asm
+                   W_TEMP   0x000127       data     static E:\senai\projetos\curso - 628\exemplos\ex3\math.asm
+                        I   0x000128       data     static E:\senai\projetos\curso - 628\exemplos\ex3\delay.asm
+                   iCount   0x000128       data     static E:\senai\projetos\curso - 628\exemplos\ex3\math.asm
+                        J   0x000129       data     static E:\senai\projetos\curso - 628\exemplos\ex3\delay.asm
+                     LTMP   0x000129       data     static E:\senai\projetos\curso - 628\exemplos\ex3\math.asm
+                        K   0x00012a       data     static E:\senai\projetos\curso - 628\exemplos\ex3\delay.asm
+
+

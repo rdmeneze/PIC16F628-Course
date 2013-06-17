@@ -1,0 +1,201 @@
+[Header]
+MagicCookie={0b13fe8c-dfe0-40eb-8900-6712719559a7}
+Version=1.0
+[File000]
+Location=E:\senai\projetos\curso - 628\exemplos\serial\main.o
+Folder=Intermediary
+DeviceName=PIC16F628A
+LanguageToolSuiteID={6B3DAA78-59C1-46DD-B6AA-DBDAE4E06484}
+LanguageToolID={49D3CA3F-D9A3-4518-9943-226A347E8CC7}
+LanguageToolLocation=C:\Arquivos de programas\Microchip\MPASM Suite\MPASMWIN.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|E:\senai\projetos\curso - 628\exemplos\library||$(LKRDIR)||
+SOLK=<src>|main.asm|math.asm|delay.asm|funcoes.asm||<obj>||<lib>||<lkr>||
+SuiteArgsString=generate-relocatable-code
+ToolArgsString=
+TraceCmdString=
+DebugOptions=/d__DEBUG=1
+[File001]
+Location=E:\senai\projetos\curso - 628\exemplos\serial\main.err
+Folder=Intermediary
+DeviceName=PIC16F628A
+LanguageToolSuiteID={6B3DAA78-59C1-46DD-B6AA-DBDAE4E06484}
+LanguageToolID={49D3CA3F-D9A3-4518-9943-226A347E8CC7}
+LanguageToolLocation=C:\Arquivos de programas\Microchip\MPASM Suite\MPASMWIN.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|E:\senai\projetos\curso - 628\exemplos\library||$(LKRDIR)||
+SOLK=<src>|main.asm|math.asm|delay.asm|funcoes.asm||<obj>||<lib>||<lkr>||
+SuiteArgsString=generate-relocatable-code
+ToolArgsString=
+TraceCmdString=
+DebugOptions=/d__DEBUG=1
+[File002]
+Location=E:\senai\projetos\curso - 628\exemplos\serial\math.o
+Folder=Intermediary
+DeviceName=PIC16F628A
+LanguageToolSuiteID={6B3DAA78-59C1-46DD-B6AA-DBDAE4E06484}
+LanguageToolID={49D3CA3F-D9A3-4518-9943-226A347E8CC7}
+LanguageToolLocation=C:\Arquivos de programas\Microchip\MPASM Suite\MPASMWIN.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|E:\senai\projetos\curso - 628\exemplos\library||$(LKRDIR)||
+SOLK=<src>|main.asm|math.asm|delay.asm|funcoes.asm||<obj>||<lib>||<lkr>||
+SuiteArgsString=generate-relocatable-code
+ToolArgsString=
+TraceCmdString=
+DebugOptions=/d__DEBUG=1
+[File003]
+Location=E:\senai\projetos\curso - 628\exemplos\serial\math.err
+Folder=Intermediary
+DeviceName=PIC16F628A
+LanguageToolSuiteID={6B3DAA78-59C1-46DD-B6AA-DBDAE4E06484}
+LanguageToolID={49D3CA3F-D9A3-4518-9943-226A347E8CC7}
+LanguageToolLocation=C:\Arquivos de programas\Microchip\MPASM Suite\MPASMWIN.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|E:\senai\projetos\curso - 628\exemplos\library||$(LKRDIR)||
+SOLK=<src>|main.asm|math.asm|delay.asm|funcoes.asm||<obj>||<lib>||<lkr>||
+SuiteArgsString=generate-relocatable-code
+ToolArgsString=
+TraceCmdString=
+DebugOptions=/d__DEBUG=1
+[File004]
+Location=E:\senai\projetos\curso - 628\exemplos\serial\delay.o
+Folder=Intermediary
+DeviceName=PIC16F628A
+LanguageToolSuiteID={6B3DAA78-59C1-46DD-B6AA-DBDAE4E06484}
+LanguageToolID={49D3CA3F-D9A3-4518-9943-226A347E8CC7}
+LanguageToolLocation=C:\Arquivos de programas\Microchip\MPASM Suite\MPASMWIN.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|E:\senai\projetos\curso - 628\exemplos\library||$(LKRDIR)||
+SOLK=<src>|main.asm|math.asm|delay.asm|funcoes.asm||<obj>||<lib>||<lkr>||
+SuiteArgsString=generate-relocatable-code
+ToolArgsString=
+TraceCmdString=
+DebugOptions=/d__DEBUG=1
+[File005]
+Location=E:\senai\projetos\curso - 628\exemplos\serial\delay.err
+Folder=Intermediary
+DeviceName=PIC16F628A
+LanguageToolSuiteID={6B3DAA78-59C1-46DD-B6AA-DBDAE4E06484}
+LanguageToolID={49D3CA3F-D9A3-4518-9943-226A347E8CC7}
+LanguageToolLocation=C:\Arquivos de programas\Microchip\MPASM Suite\MPASMWIN.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|E:\senai\projetos\curso - 628\exemplos\library||$(LKRDIR)||
+SOLK=<src>|main.asm|math.asm|delay.asm|funcoes.asm||<obj>||<lib>||<lkr>||
+SuiteArgsString=generate-relocatable-code
+ToolArgsString=
+TraceCmdString=
+DebugOptions=/d__DEBUG=1
+[File006]
+Location=E:\senai\projetos\curso - 628\exemplos\serial\funcoes.o
+Folder=Intermediary
+DeviceName=PIC16F628A
+LanguageToolSuiteID={6B3DAA78-59C1-46DD-B6AA-DBDAE4E06484}
+LanguageToolID={49D3CA3F-D9A3-4518-9943-226A347E8CC7}
+LanguageToolLocation=C:\Arquivos de programas\Microchip\MPASM Suite\MPASMWIN.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|E:\senai\projetos\curso - 628\exemplos\library||$(LKRDIR)||
+SOLK=<src>|main.asm|math.asm|delay.asm|funcoes.asm||<obj>||<lib>||<lkr>||
+SuiteArgsString=generate-relocatable-code
+ToolArgsString=
+TraceCmdString=
+DebugOptions=/d__DEBUG=1
+[File007]
+Location=E:\senai\projetos\curso - 628\exemplos\serial\funcoes.err
+Folder=Intermediary
+DeviceName=PIC16F628A
+LanguageToolSuiteID={6B3DAA78-59C1-46DD-B6AA-DBDAE4E06484}
+LanguageToolID={49D3CA3F-D9A3-4518-9943-226A347E8CC7}
+LanguageToolLocation=C:\Arquivos de programas\Microchip\MPASM Suite\MPASMWIN.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|E:\senai\projetos\curso - 628\exemplos\library||$(LKRDIR)||
+SOLK=<src>|main.asm|math.asm|delay.asm|funcoes.asm||<obj>||<lib>||<lkr>||
+SuiteArgsString=generate-relocatable-code
+ToolArgsString=
+TraceCmdString=
+DebugOptions=/d__DEBUG=1
+[File008]
+Location=E:\senai\projetos\curso - 628\exemplos\serial\main.lst
+Folder=Output
+DeviceName=PIC16F628A
+LanguageToolSuiteID={6B3DAA78-59C1-46DD-B6AA-DBDAE4E06484}
+LanguageToolID={49D3CA3F-D9A3-4518-9943-226A347E8CC7}
+LanguageToolLocation=C:\Arquivos de programas\Microchip\MPASM Suite\MPASMWIN.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|E:\senai\projetos\curso - 628\exemplos\library||$(LKRDIR)||
+SOLK=<src>|main.asm|math.asm|delay.asm|funcoes.asm||<obj>||<lib>||<lkr>||
+SuiteArgsString=generate-relocatable-code
+ToolArgsString=
+TraceCmdString=
+DebugOptions=/d__DEBUG=1
+[File009]
+Location=E:\senai\projetos\curso - 628\exemplos\serial\math.lst
+Folder=Output
+DeviceName=PIC16F628A
+LanguageToolSuiteID={6B3DAA78-59C1-46DD-B6AA-DBDAE4E06484}
+LanguageToolID={49D3CA3F-D9A3-4518-9943-226A347E8CC7}
+LanguageToolLocation=C:\Arquivos de programas\Microchip\MPASM Suite\MPASMWIN.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|E:\senai\projetos\curso - 628\exemplos\library||$(LKRDIR)||
+SOLK=<src>|main.asm|math.asm|delay.asm|funcoes.asm||<obj>||<lib>||<lkr>||
+SuiteArgsString=generate-relocatable-code
+ToolArgsString=
+TraceCmdString=
+DebugOptions=/d__DEBUG=1
+[File010]
+Location=E:\senai\projetos\curso - 628\exemplos\serial\delay.lst
+Folder=Output
+DeviceName=PIC16F628A
+LanguageToolSuiteID={6B3DAA78-59C1-46DD-B6AA-DBDAE4E06484}
+LanguageToolID={49D3CA3F-D9A3-4518-9943-226A347E8CC7}
+LanguageToolLocation=C:\Arquivos de programas\Microchip\MPASM Suite\MPASMWIN.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|E:\senai\projetos\curso - 628\exemplos\library||$(LKRDIR)||
+SOLK=<src>|main.asm|math.asm|delay.asm|funcoes.asm||<obj>||<lib>||<lkr>||
+SuiteArgsString=generate-relocatable-code
+ToolArgsString=
+TraceCmdString=
+DebugOptions=/d__DEBUG=1
+[File011]
+Location=E:\senai\projetos\curso - 628\exemplos\serial\funcoes.lst
+Folder=Output
+DeviceName=PIC16F628A
+LanguageToolSuiteID={6B3DAA78-59C1-46DD-B6AA-DBDAE4E06484}
+LanguageToolID={49D3CA3F-D9A3-4518-9943-226A347E8CC7}
+LanguageToolLocation=C:\Arquivos de programas\Microchip\MPASM Suite\MPASMWIN.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|E:\senai\projetos\curso - 628\exemplos\library||$(LKRDIR)||
+SOLK=<src>|main.asm|math.asm|delay.asm|funcoes.asm||<obj>||<lib>||<lkr>||
+SuiteArgsString=generate-relocatable-code
+ToolArgsString=
+TraceCmdString=
+DebugOptions=/d__DEBUG=1
+[File012]
+Location=E:\senai\projetos\curso - 628\exemplos\serial\serial.cof
+Folder=Output
+DeviceName=PIC16F628A
+LanguageToolSuiteID={6B3DAA78-59C1-46DD-B6AA-DBDAE4E06484}
+LanguageToolID={96C98149-AA1B-4CF9-B967-FAE79CAB663C}
+LanguageToolLocation=C:\Arquivos de programas\Microchip\MPASM Suite\mplink.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|E:\senai\projetos\curso - 628\exemplos\library||$(LKRDIR)||
+SOLK=<src>|main.asm|math.asm|delay.asm|funcoes.asm||<obj>||<lib>||<lkr>||
+SuiteArgsString=generate-relocatable-code
+ToolArgsString=/m"$(BINDIR_)$(TARGETBASE).map" /w /o"$(BINDIR_)$(TARGETBASE).cof"
+TraceCmdString=
+DebugOptions=/z__MPLAB_DEBUG=1
+[File013]
+Location=E:\senai\projetos\curso - 628\exemplos\serial\serial.hex
+Folder=Output
+DeviceName=PIC16F628A
+LanguageToolSuiteID={6B3DAA78-59C1-46DD-B6AA-DBDAE4E06484}
+LanguageToolID={96C98149-AA1B-4CF9-B967-FAE79CAB663C}
+LanguageToolLocation=C:\Arquivos de programas\Microchip\MPASM Suite\mplink.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|E:\senai\projetos\curso - 628\exemplos\library||$(LKRDIR)||
+SOLK=<src>|main.asm|math.asm|delay.asm|funcoes.asm||<obj>||<lib>||<lkr>||
+SuiteArgsString=generate-relocatable-code
+ToolArgsString=/m"$(BINDIR_)$(TARGETBASE).map" /w /o"$(BINDIR_)$(TARGETBASE).cof"
+TraceCmdString=
+DebugOptions=/z__MPLAB_DEBUG=1
+[File014]
+Location=E:\senai\projetos\curso - 628\exemplos\serial\serial.map
+Folder=Output
+DeviceName=PIC16F628A
+LanguageToolSuiteID={6B3DAA78-59C1-46DD-B6AA-DBDAE4E06484}
+LanguageToolID={96C98149-AA1B-4CF9-B967-FAE79CAB663C}
+LanguageToolLocation=C:\Arquivos de programas\Microchip\MPASM Suite\mplink.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|E:\senai\projetos\curso - 628\exemplos\library||$(LKRDIR)||
+SOLK=<src>|main.asm|math.asm|delay.asm|funcoes.asm||<obj>||<lib>||<lkr>||
+SuiteArgsString=generate-relocatable-code
+ToolArgsString=/m"$(BINDIR_)$(TARGETBASE).map" /w /o"$(BINDIR_)$(TARGETBASE).cof"
+TraceCmdString=
+DebugOptions=/z__MPLAB_DEBUG=1
+[TOOL_LOC_STAMPS]
+tool_loc{49D3CA3F-D9A3-4518-9943-226A347E8CC7}=C:\Arquivos de programas\Microchip\MPASM Suite\MPASMWIN.exe
+tool_loc{96C98149-AA1B-4CF9-B967-FAE79CAB663C}=C:\Arquivos de programas\Microchip\MPASM Suite\mplink.exe

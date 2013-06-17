@@ -1,0 +1,149 @@
+MPLINK 4.30.01, Linker
+Linker Map File - Created Sat Aug 08 10:26:31 2009
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                     MAIN       code   0x000000    program   0x000002
+                   .cinit    romdata   0x000001    program   0x000004
+                   INTERR       code   0x000004    program   0x00003c
+                    .code       code   0x000022    program   0x000408
+                  .config       code   0x002007    program   0x000002
+                   .udata      udata   0x000120       data   0x00000b
+               .udata_ovr      udata   0x00012b       data   0x000004
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000002      
+                            0x000004    0x000225      
+                            0x002007    0x002007      
+            550 out of 2182 program addresses used, program memory utilization is 25%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                  BCD2Int   0x00004a    program     extern C:\sources\senai\projetos\curso - 628\exemplos\relogio\funcoes.asm
+                    DIV_8   0x00008b    program     extern C:\sources\senai\projetos\curso - 628\exemplos\relogio\math.asm
+    DIV_8_END_DIV.EQ.DIVD   0x0000b8    program     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\math.asm
+    DIV_8_END_DIV.GT.DIVD   0x0000bd    program     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\math.asm
+          DIV_8_END_RESTO   0x0000ae    program     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\math.asm
+               DIV_8_LOOP   0x000098    program     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\math.asm
+                Delay_1ms   0x0000fc    program     extern C:\sources\senai\projetos\curso - 628\exemplos\relogio\delay.asm
+              Delay_500ms   0x00010e    program     extern C:\sources\senai\projetos\curso - 628\exemplos\relogio\delay.asm
+                Delay_Xms   0x000107    program     extern C:\sources\senai\projetos\curso - 628\exemplos\relogio\delay.asm
+                   Inicio   0x000016    program     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\main.asm
+                 Init7SEG   0x000120    program     extern C:\sources\senai\projetos\curso - 628\exemplos\relogio\display.asm
+               InitTimer0   0x0000c5    program     extern C:\sources\senai\projetos\curso - 628\exemplos\relogio\timer0.asm
+                  Int2BCD   0x00002c    program     extern C:\sources\senai\projetos\curso - 628\exemplos\relogio\funcoes.asm
+               LCD_GotoXY   0x000210    program     extern C:\sources\senai\projetos\curso - 628\exemplos\relogio\displayLCD.asm
+            LCD_GotoXY_L1   0x000219    program     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\displayLCD.asm
+            LCD_GotoXY_L2   0x00021e    program     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\displayLCD.asm
+           LCD_GotoXY_cmd   0x000223    program     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\displayLCD.asm
+                 LCD_Init   0x0001b6    program     extern C:\sources\senai\projetos\curso - 628\exemplos\relogio\displayLCD.asm
+                LCD_Print   0x0001fc    program     extern C:\sources\senai\projetos\curso - 628\exemplos\relogio\displayLCD.asm
+                 LCD_Putc   0x0001fd    program     extern C:\sources\senai\projetos\curso - 628\exemplos\relogio\displayLCD.asm
+                LCD_Putc_   0x00020b    program     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\displayLCD.asm
+             LCD_Putc_BRK   0x000205    program     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\displayLCD.asm
+                LCD_Reset   0x0001c9    program     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\displayLCD.asm
+                  LCD_cmd   0x000172    program     extern C:\sources\senai\projetos\curso - 628\exemplos\relogio\displayLCD.asm
+                 LCD_data   0x000190    program     extern C:\sources\senai\projetos\curso - 628\exemplos\relogio\displayLCD.asm
+                    MUL_8   0x000063    program     extern C:\sources\senai\projetos\curso - 628\exemplos\relogio\math.asm
+                MUL_8_END   0x000081    program     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\math.asm
+               MUL_8_LOOP   0x00006d    program     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\math.asm
+              Refresh7SEG   0x000129    program     extern C:\sources\senai\projetos\curso - 628\exemplos\relogio\display.asm
+                 TBL_Read   0x000022    program     extern C:\sources\senai\projetos\curso - 628\exemplos\relogio\funcoes.asm
+              TrataTimer0   0x0000de    program     extern C:\sources\senai\projetos\curso - 628\exemplos\relogio\timer0.asm
+          TrataTimer0_END   0x0000fa    program     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\timer0.asm
+              _.code_0007   0x000103    program     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\delay.asm
+              _.code_0009   0x000105    program     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\delay.asm
+              _.code_0010   0x00010c    program     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\delay.asm
+              _.code_001D   0x000119    program     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\delay.asm
+              _.code_0022   0x00011e    program     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\delay.asm
+              _.code_0025   0x0000ea    program     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\timer0.asm
+              _.code_002A   0x0000ef    program     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\timer0.asm
+               loop_princ   0x000017    program     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\main.asm
+                    B_REG   0x000123       data     extern C:\sources\senai\projetos\curso - 628\exemplos\relogio\math.asm
+                        I   0x00012b       data     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\delay.asm
+                        J   0x00012c       data     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\delay.asm
+                        K   0x00012d       data     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\delay.asm
+                     LTMP   0x00012c       data     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\math.asm
+                   RF_TMP   0x00012b       data     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\display.asm
+              STATUS_TEMP   0x000126       data     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\main.asm
+                  TBL_PTR   0x000120       data     extern C:\sources\senai\projetos\curso - 628\exemplos\relogio\funcoes.asm
+                     TMP1   0x00012c       data     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\display.asm
+                   W_TEMP   0x000122       data     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\funcoes.asm
+                   W_TEMP   0x000124       data     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\math.asm
+                   W_TEMP   0x000125       data     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\main.asm
+                   iCount   0x00012b       data     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\math.asm
+             iEvntCounter   0x000127       data     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\timer0.asm
+              iSecCounter   0x000129       data     extern C:\sources\senai\projetos\curso - 628\exemplos\relogio\timer0.asm
+                      tmp   0x00012a       data     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\displayLCD.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   Inicio   0x000016    program     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\main.asm
+               loop_princ   0x000017    program     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\main.asm
+                 TBL_Read   0x000022    program     extern C:\sources\senai\projetos\curso - 628\exemplos\relogio\funcoes.asm
+                  Int2BCD   0x00002c    program     extern C:\sources\senai\projetos\curso - 628\exemplos\relogio\funcoes.asm
+                  BCD2Int   0x00004a    program     extern C:\sources\senai\projetos\curso - 628\exemplos\relogio\funcoes.asm
+                    MUL_8   0x000063    program     extern C:\sources\senai\projetos\curso - 628\exemplos\relogio\math.asm
+               MUL_8_LOOP   0x00006d    program     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\math.asm
+                MUL_8_END   0x000081    program     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\math.asm
+                    DIV_8   0x00008b    program     extern C:\sources\senai\projetos\curso - 628\exemplos\relogio\math.asm
+               DIV_8_LOOP   0x000098    program     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\math.asm
+          DIV_8_END_RESTO   0x0000ae    program     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\math.asm
+    DIV_8_END_DIV.EQ.DIVD   0x0000b8    program     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\math.asm
+    DIV_8_END_DIV.GT.DIVD   0x0000bd    program     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\math.asm
+               InitTimer0   0x0000c5    program     extern C:\sources\senai\projetos\curso - 628\exemplos\relogio\timer0.asm
+              TrataTimer0   0x0000de    program     extern C:\sources\senai\projetos\curso - 628\exemplos\relogio\timer0.asm
+              _.code_0025   0x0000ea    program     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\timer0.asm
+              _.code_002A   0x0000ef    program     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\timer0.asm
+          TrataTimer0_END   0x0000fa    program     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\timer0.asm
+                Delay_1ms   0x0000fc    program     extern C:\sources\senai\projetos\curso - 628\exemplos\relogio\delay.asm
+              _.code_0007   0x000103    program     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\delay.asm
+              _.code_0009   0x000105    program     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\delay.asm
+                Delay_Xms   0x000107    program     extern C:\sources\senai\projetos\curso - 628\exemplos\relogio\delay.asm
+              _.code_0010   0x00010c    program     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\delay.asm
+              Delay_500ms   0x00010e    program     extern C:\sources\senai\projetos\curso - 628\exemplos\relogio\delay.asm
+              _.code_001D   0x000119    program     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\delay.asm
+              _.code_0022   0x00011e    program     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\delay.asm
+                 Init7SEG   0x000120    program     extern C:\sources\senai\projetos\curso - 628\exemplos\relogio\display.asm
+              Refresh7SEG   0x000129    program     extern C:\sources\senai\projetos\curso - 628\exemplos\relogio\display.asm
+                  LCD_cmd   0x000172    program     extern C:\sources\senai\projetos\curso - 628\exemplos\relogio\displayLCD.asm
+                 LCD_data   0x000190    program     extern C:\sources\senai\projetos\curso - 628\exemplos\relogio\displayLCD.asm
+                 LCD_Init   0x0001b6    program     extern C:\sources\senai\projetos\curso - 628\exemplos\relogio\displayLCD.asm
+                LCD_Reset   0x0001c9    program     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\displayLCD.asm
+                LCD_Print   0x0001fc    program     extern C:\sources\senai\projetos\curso - 628\exemplos\relogio\displayLCD.asm
+                 LCD_Putc   0x0001fd    program     extern C:\sources\senai\projetos\curso - 628\exemplos\relogio\displayLCD.asm
+             LCD_Putc_BRK   0x000205    program     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\displayLCD.asm
+                LCD_Putc_   0x00020b    program     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\displayLCD.asm
+               LCD_GotoXY   0x000210    program     extern C:\sources\senai\projetos\curso - 628\exemplos\relogio\displayLCD.asm
+            LCD_GotoXY_L1   0x000219    program     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\displayLCD.asm
+            LCD_GotoXY_L2   0x00021e    program     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\displayLCD.asm
+           LCD_GotoXY_cmd   0x000223    program     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\displayLCD.asm
+                  TBL_PTR   0x000120       data     extern C:\sources\senai\projetos\curso - 628\exemplos\relogio\funcoes.asm
+                   W_TEMP   0x000122       data     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\funcoes.asm
+                    B_REG   0x000123       data     extern C:\sources\senai\projetos\curso - 628\exemplos\relogio\math.asm
+                   W_TEMP   0x000124       data     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\math.asm
+                   W_TEMP   0x000125       data     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\main.asm
+              STATUS_TEMP   0x000126       data     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\main.asm
+             iEvntCounter   0x000127       data     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\timer0.asm
+              iSecCounter   0x000129       data     extern C:\sources\senai\projetos\curso - 628\exemplos\relogio\timer0.asm
+                      tmp   0x00012a       data     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\displayLCD.asm
+                        I   0x00012b       data     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\delay.asm
+                   RF_TMP   0x00012b       data     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\display.asm
+                   iCount   0x00012b       data     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\math.asm
+                        J   0x00012c       data     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\delay.asm
+                     LTMP   0x00012c       data     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\math.asm
+                     TMP1   0x00012c       data     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\display.asm
+                        K   0x00012d       data     static C:\sources\senai\projetos\curso - 628\exemplos\relogio\delay.asm
+
+

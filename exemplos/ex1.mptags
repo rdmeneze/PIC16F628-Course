@@ -1,0 +1,15 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+!_TAG_REVISION_NAME	MCHPTags	//
+!_TAG_REVISION_VERSION	6.0.1	//
+TRISA_CNF	F:\Rafa - Documentos\fontes\senai\projetos\curso - 628\exemplos\main.asm	13;"	q	line:13
+TRISB_CNF	F:\Rafa - Documentos\fontes\senai\projetos\curso - 628\exemplos\main.asm	14;"	q	line:14
+clrpb0	F:\Rafa - Documentos\fontes\senai\projetos\curso - 628\exemplos\main.asm	49;"	l	line:49
+inicio	F:\Rafa - Documentos\fontes\senai\projetos\curso - 628\exemplos\main.asm	27;"	l	line:27
+loop_Princ	F:\Rafa - Documentos\fontes\senai\projetos\curso - 628\exemplos\main.asm	40;"	l	line:40
+sai1	F:\Rafa - Documentos\fontes\senai\projetos\curso - 628\exemplos\main.asm	54;"	l	line:54
+setpb0	F:\Rafa - Documentos\fontes\senai\projetos\curso - 628\exemplos\main.asm	45;"	l	line:45

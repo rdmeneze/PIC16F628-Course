@@ -1,0 +1,98 @@
+MPLINK 4.30.01, Linker
+Linker Map File - Created Sat Aug 08 10:34:36 2009
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x0001f4
+                   .cinit    romdata   0x0000fa    program   0x000004
+                  .config       code   0x002007    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x0000fb      
+                            0x002007    0x002007      
+            253 out of 2183 program addresses used, program memory utilization is 11%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+               BUSY_CHECK   0x000032    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+                  CMD_LCD   0x000042    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+                 DATA_LCD   0x000046    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+                 INIT_LCD   0x000012    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+               INNER_LOOP   0x0000f5    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+              LCD_IS_BUSY   0x00003a    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+                 NOT_BUSY   0x000041    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+               OUTER_LOOP   0x0000f3    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+                PRINCIPAL   0x00000a    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+                    RESET   0x000000    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+                    START   0x000001    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+               WAIT_100US   0x0000d4    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+                WAIT_10US   0x0000c8    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+               WAIT_128MS   0x0000b5    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+                WAIT_16MS   0x0000bd    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+                 WAIT_1MS   0x0000e5    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+               WAIT_200US   0x0000db    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+               WAIT_256MS   0x0000b2    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+                WAIT_25US   0x0000cb    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+                 WAIT_2MS   0x0000ea    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+                WAIT_32MS   0x0000ba    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+                 WAIT_4MS   0x0000c3    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+               WAIT_500US   0x0000e0    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+                WAIT_50US   0x0000cf    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+                 WAIT_5US   0x0000c6    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+                WAIT_64MS   0x0000b8    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+                 WAIT_8MS   0x0000c0    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+               WAIT_A_SEC   0x0000ab    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+            WAIT_HALF_SEC   0x0000b0    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+                 WAIT_XUS   0x0000f0    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+                WRITE_LCD   0x000049    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+         WRITE_MENU_LINE1   0x000064    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+         WRITE_MENU_LINE2   0x000087    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    RESET   0x000000    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+                    START   0x000001    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+                PRINCIPAL   0x00000a    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+                 INIT_LCD   0x000012    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+               BUSY_CHECK   0x000032    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+              LCD_IS_BUSY   0x00003a    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+                 NOT_BUSY   0x000041    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+                  CMD_LCD   0x000042    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+                 DATA_LCD   0x000046    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+                WRITE_LCD   0x000049    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+         WRITE_MENU_LINE1   0x000064    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+         WRITE_MENU_LINE2   0x000087    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+               WAIT_A_SEC   0x0000ab    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+            WAIT_HALF_SEC   0x0000b0    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+               WAIT_256MS   0x0000b2    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+               WAIT_128MS   0x0000b5    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+                WAIT_64MS   0x0000b8    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+                WAIT_32MS   0x0000ba    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+                WAIT_16MS   0x0000bd    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+                 WAIT_8MS   0x0000c0    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+                 WAIT_4MS   0x0000c3    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+                 WAIT_5US   0x0000c6    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+                WAIT_10US   0x0000c8    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+                WAIT_25US   0x0000cb    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+                WAIT_50US   0x0000cf    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+               WAIT_100US   0x0000d4    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+               WAIT_200US   0x0000db    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+               WAIT_500US   0x0000e0    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+                 WAIT_1MS   0x0000e5    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+                 WAIT_2MS   0x0000ea    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+                 WAIT_XUS   0x0000f0    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+               OUTER_LOOP   0x0000f3    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+               INNER_LOOP   0x0000f5    program     static C:\sources\senai\projetos\curso - 628\exemplos\lcd\LCD-PIC.ASM
+
+

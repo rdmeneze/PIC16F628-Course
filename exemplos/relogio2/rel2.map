@@ -1,0 +1,136 @@
+MPLINK 4.30.01, Linker
+Linker Map File - Created Fri Aug 21 23:28:59 2009
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .cinit    romdata   0x000000    program   0x000004
+                    .code       code   0x000002    program   0x000408
+                   .udata      udata   0x000120       data   0x000009
+               .udata_ovr      udata   0x000129       data   0x000004
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000205      
+            518 out of 2183 program addresses used, program memory utilization is 23%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                  BCD2Int   0x000154    program     extern C:\sources\senai\projetos\curso - 628\exemplos\library\funcoes.asm
+                    DIV_8   0x000195    program     extern C:\sources\senai\projetos\curso - 628\exemplos\library\math.asm
+    DIV_8_END_DIV.EQ.DIVD   0x0001c2    program     static C:\sources\senai\projetos\curso - 628\exemplos\library\math.asm
+    DIV_8_END_DIV.GT.DIVD   0x0001c7    program     static C:\sources\senai\projetos\curso - 628\exemplos\library\math.asm
+          DIV_8_END_RESTO   0x0001b8    program     static C:\sources\senai\projetos\curso - 628\exemplos\library\math.asm
+               DIV_8_LOOP   0x0001a2    program     static C:\sources\senai\projetos\curso - 628\exemplos\library\math.asm
+                Delay_1ms   0x000002    program     extern C:\sources\senai\projetos\curso - 628\exemplos\library\delay.asm
+              Delay_500ms   0x000014    program     extern C:\sources\senai\projetos\curso - 628\exemplos\library\delay.asm
+                Delay_Xms   0x00000d    program     extern C:\sources\senai\projetos\curso - 628\exemplos\library\delay.asm
+                 Init7SEG   0x000026    program     extern C:\sources\senai\projetos\curso - 628\exemplos\library\display.asm
+               InitTimer0   0x0001cf    program     extern C:\sources\senai\projetos\curso - 628\exemplos\library\timer0.asm
+                  Int2BCD   0x000136    program     extern C:\sources\senai\projetos\curso - 628\exemplos\library\funcoes.asm
+               LCD_GotoXY   0x000116    program     extern C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm
+            LCD_GotoXY_L1   0x00011f    program     static C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm
+            LCD_GotoXY_L2   0x000124    program     static C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm
+           LCD_GotoXY_cmd   0x000129    program     static C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm
+                 LCD_Init   0x0000bc    program     extern C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm
+                LCD_Print   0x000102    program     extern C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm
+                 LCD_Putc   0x000103    program     extern C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm
+                LCD_Putc_   0x000111    program     static C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm
+             LCD_Putc_BRK   0x00010b    program     static C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm
+                LCD_Reset   0x0000cf    program     static C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm
+                  LCD_cmd   0x000078    program     extern C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm
+                 LCD_data   0x000096    program     extern C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm
+                    MUL_8   0x00016d    program     extern C:\sources\senai\projetos\curso - 628\exemplos\library\math.asm
+                MUL_8_END   0x00018b    program     static C:\sources\senai\projetos\curso - 628\exemplos\library\math.asm
+               MUL_8_LOOP   0x000177    program     static C:\sources\senai\projetos\curso - 628\exemplos\library\math.asm
+              Refresh7SEG   0x00002f    program     extern C:\sources\senai\projetos\curso - 628\exemplos\library\display.asm
+                 TBL_Read   0x00012c    program     extern C:\sources\senai\projetos\curso - 628\exemplos\library\funcoes.asm
+              TrataTimer0   0x0001e8    program     extern C:\sources\senai\projetos\curso - 628\exemplos\library\timer0.asm
+          TrataTimer0_END   0x000204    program     static C:\sources\senai\projetos\curso - 628\exemplos\library\timer0.asm
+              _.code_0007   0x000009    program     static C:\sources\senai\projetos\curso - 628\exemplos\library\delay.asm
+              _.code_0009   0x00000b    program     static C:\sources\senai\projetos\curso - 628\exemplos\library\delay.asm
+              _.code_0010   0x000012    program     static C:\sources\senai\projetos\curso - 628\exemplos\library\delay.asm
+              _.code_001D   0x00001f    program     static C:\sources\senai\projetos\curso - 628\exemplos\library\delay.asm
+              _.code_0022   0x000024    program     static C:\sources\senai\projetos\curso - 628\exemplos\library\delay.asm
+              _.code_0025   0x0001f4    program     static C:\sources\senai\projetos\curso - 628\exemplos\library\timer0.asm
+              _.code_002A   0x0001f9    program     static C:\sources\senai\projetos\curso - 628\exemplos\library\timer0.asm
+                    B_REG   0x000124       data     extern C:\sources\senai\projetos\curso - 628\exemplos\library\math.asm
+                        I   0x000129       data     static C:\sources\senai\projetos\curso - 628\exemplos\library\delay.asm
+                        J   0x00012a       data     static C:\sources\senai\projetos\curso - 628\exemplos\library\delay.asm
+                        K   0x00012b       data     static C:\sources\senai\projetos\curso - 628\exemplos\library\delay.asm
+                     LTMP   0x00012a       data     static C:\sources\senai\projetos\curso - 628\exemplos\library\math.asm
+                   RF_TMP   0x000129       data     static C:\sources\senai\projetos\curso - 628\exemplos\library\display.asm
+                  TBL_PTR   0x000121       data     extern C:\sources\senai\projetos\curso - 628\exemplos\library\funcoes.asm
+                     TMP1   0x00012a       data     static C:\sources\senai\projetos\curso - 628\exemplos\library\display.asm
+                   W_TEMP   0x000123       data     static C:\sources\senai\projetos\curso - 628\exemplos\library\funcoes.asm
+                   W_TEMP   0x000125       data     static C:\sources\senai\projetos\curso - 628\exemplos\library\math.asm
+                   iCount   0x000129       data     static C:\sources\senai\projetos\curso - 628\exemplos\library\math.asm
+             iEvntCounter   0x000126       data     static C:\sources\senai\projetos\curso - 628\exemplos\library\timer0.asm
+              iSecCounter   0x000128       data     extern C:\sources\senai\projetos\curso - 628\exemplos\library\timer0.asm
+                      tmp   0x000120       data     static C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                Delay_1ms   0x000002    program     extern C:\sources\senai\projetos\curso - 628\exemplos\library\delay.asm
+              _.code_0007   0x000009    program     static C:\sources\senai\projetos\curso - 628\exemplos\library\delay.asm
+              _.code_0009   0x00000b    program     static C:\sources\senai\projetos\curso - 628\exemplos\library\delay.asm
+                Delay_Xms   0x00000d    program     extern C:\sources\senai\projetos\curso - 628\exemplos\library\delay.asm
+              _.code_0010   0x000012    program     static C:\sources\senai\projetos\curso - 628\exemplos\library\delay.asm
+              Delay_500ms   0x000014    program     extern C:\sources\senai\projetos\curso - 628\exemplos\library\delay.asm
+              _.code_001D   0x00001f    program     static C:\sources\senai\projetos\curso - 628\exemplos\library\delay.asm
+              _.code_0022   0x000024    program     static C:\sources\senai\projetos\curso - 628\exemplos\library\delay.asm
+                 Init7SEG   0x000026    program     extern C:\sources\senai\projetos\curso - 628\exemplos\library\display.asm
+              Refresh7SEG   0x00002f    program     extern C:\sources\senai\projetos\curso - 628\exemplos\library\display.asm
+                  LCD_cmd   0x000078    program     extern C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm
+                 LCD_data   0x000096    program     extern C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm
+                 LCD_Init   0x0000bc    program     extern C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm
+                LCD_Reset   0x0000cf    program     static C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm
+                LCD_Print   0x000102    program     extern C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm
+                 LCD_Putc   0x000103    program     extern C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm
+             LCD_Putc_BRK   0x00010b    program     static C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm
+                LCD_Putc_   0x000111    program     static C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm
+               LCD_GotoXY   0x000116    program     extern C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm
+            LCD_GotoXY_L1   0x00011f    program     static C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm
+            LCD_GotoXY_L2   0x000124    program     static C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm
+           LCD_GotoXY_cmd   0x000129    program     static C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm
+                 TBL_Read   0x00012c    program     extern C:\sources\senai\projetos\curso - 628\exemplos\library\funcoes.asm
+                  Int2BCD   0x000136    program     extern C:\sources\senai\projetos\curso - 628\exemplos\library\funcoes.asm
+                  BCD2Int   0x000154    program     extern C:\sources\senai\projetos\curso - 628\exemplos\library\funcoes.asm
+                    MUL_8   0x00016d    program     extern C:\sources\senai\projetos\curso - 628\exemplos\library\math.asm
+               MUL_8_LOOP   0x000177    program     static C:\sources\senai\projetos\curso - 628\exemplos\library\math.asm
+                MUL_8_END   0x00018b    program     static C:\sources\senai\projetos\curso - 628\exemplos\library\math.asm
+                    DIV_8   0x000195    program     extern C:\sources\senai\projetos\curso - 628\exemplos\library\math.asm
+               DIV_8_LOOP   0x0001a2    program     static C:\sources\senai\projetos\curso - 628\exemplos\library\math.asm
+          DIV_8_END_RESTO   0x0001b8    program     static C:\sources\senai\projetos\curso - 628\exemplos\library\math.asm
+    DIV_8_END_DIV.EQ.DIVD   0x0001c2    program     static C:\sources\senai\projetos\curso - 628\exemplos\library\math.asm
+    DIV_8_END_DIV.GT.DIVD   0x0001c7    program     static C:\sources\senai\projetos\curso - 628\exemplos\library\math.asm
+               InitTimer0   0x0001cf    program     extern C:\sources\senai\projetos\curso - 628\exemplos\library\timer0.asm
+              TrataTimer0   0x0001e8    program     extern C:\sources\senai\projetos\curso - 628\exemplos\library\timer0.asm
+              _.code_0025   0x0001f4    program     static C:\sources\senai\projetos\curso - 628\exemplos\library\timer0.asm
+              _.code_002A   0x0001f9    program     static C:\sources\senai\projetos\curso - 628\exemplos\library\timer0.asm
+          TrataTimer0_END   0x000204    program     static C:\sources\senai\projetos\curso - 628\exemplos\library\timer0.asm
+                      tmp   0x000120       data     static C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm
+                  TBL_PTR   0x000121       data     extern C:\sources\senai\projetos\curso - 628\exemplos\library\funcoes.asm
+                   W_TEMP   0x000123       data     static C:\sources\senai\projetos\curso - 628\exemplos\library\funcoes.asm
+                    B_REG   0x000124       data     extern C:\sources\senai\projetos\curso - 628\exemplos\library\math.asm
+                   W_TEMP   0x000125       data     static C:\sources\senai\projetos\curso - 628\exemplos\library\math.asm
+             iEvntCounter   0x000126       data     static C:\sources\senai\projetos\curso - 628\exemplos\library\timer0.asm
+              iSecCounter   0x000128       data     extern C:\sources\senai\projetos\curso - 628\exemplos\library\timer0.asm
+                        I   0x000129       data     static C:\sources\senai\projetos\curso - 628\exemplos\library\delay.asm
+                   RF_TMP   0x000129       data     static C:\sources\senai\projetos\curso - 628\exemplos\library\display.asm
+                   iCount   0x000129       data     static C:\sources\senai\projetos\curso - 628\exemplos\library\math.asm
+                        J   0x00012a       data     static C:\sources\senai\projetos\curso - 628\exemplos\library\delay.asm
+                     LTMP   0x00012a       data     static C:\sources\senai\projetos\curso - 628\exemplos\library\math.asm
+                     TMP1   0x00012a       data     static C:\sources\senai\projetos\curso - 628\exemplos\library\display.asm
+                        K   0x00012b       data     static C:\sources\senai\projetos\curso - 628\exemplos\library\delay.asm
+
+

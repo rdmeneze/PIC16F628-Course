@@ -1,0 +1,279 @@
+[Header]
+MagicCookie={0b13fe8c-dfe0-40eb-8900-6712719559a7}
+Version=1.0
+[File000]
+Location=C:\sources\senai\projetos\curso - 628\exemplos\relogio2\delay.o
+Folder=Intermediary
+DeviceName=PIC16F628A
+LanguageToolSuiteID={6B3DAA78-59C1-46DD-B6AA-DBDAE4E06484}
+LanguageToolID={49D3CA3F-D9A3-4518-9943-226A347E8CC7}
+LanguageToolLocation=C:\Arquivos de programas\Microchip\MPASM Suite\MPASMWIN.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\sources\senai\projetos\curso - 628\exemplos\library||$(LKRDIR)||
+SOLK=<src>|C:\sources\senai\projetos\curso - 628\exemplos\library\delay.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\display.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\funcoes.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\math.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\timer0.asm||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=
+TraceCmdString=
+DebugOptions=/d__DEBUG=1
+[File001]
+Location=C:\sources\senai\projetos\curso - 628\exemplos\relogio2\delay.err
+Folder=Intermediary
+DeviceName=PIC16F628A
+LanguageToolSuiteID={6B3DAA78-59C1-46DD-B6AA-DBDAE4E06484}
+LanguageToolID={49D3CA3F-D9A3-4518-9943-226A347E8CC7}
+LanguageToolLocation=C:\Arquivos de programas\Microchip\MPASM Suite\MPASMWIN.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\sources\senai\projetos\curso - 628\exemplos\library||$(LKRDIR)||
+SOLK=<src>|C:\sources\senai\projetos\curso - 628\exemplos\library\delay.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\display.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\funcoes.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\math.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\timer0.asm||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=
+TraceCmdString=
+DebugOptions=/d__DEBUG=1
+[File002]
+Location=C:\sources\senai\projetos\curso - 628\exemplos\relogio2\display.o
+Folder=Intermediary
+DeviceName=PIC16F628A
+LanguageToolSuiteID={6B3DAA78-59C1-46DD-B6AA-DBDAE4E06484}
+LanguageToolID={49D3CA3F-D9A3-4518-9943-226A347E8CC7}
+LanguageToolLocation=C:\Arquivos de programas\Microchip\MPASM Suite\MPASMWIN.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\sources\senai\projetos\curso - 628\exemplos\library||$(LKRDIR)||
+SOLK=<src>|C:\sources\senai\projetos\curso - 628\exemplos\library\delay.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\display.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\funcoes.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\math.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\timer0.asm||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=
+TraceCmdString=
+DebugOptions=/d__DEBUG=1
+[File003]
+Location=C:\sources\senai\projetos\curso - 628\exemplos\relogio2\display.err
+Folder=Intermediary
+DeviceName=PIC16F628A
+LanguageToolSuiteID={6B3DAA78-59C1-46DD-B6AA-DBDAE4E06484}
+LanguageToolID={49D3CA3F-D9A3-4518-9943-226A347E8CC7}
+LanguageToolLocation=C:\Arquivos de programas\Microchip\MPASM Suite\MPASMWIN.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\sources\senai\projetos\curso - 628\exemplos\library||$(LKRDIR)||
+SOLK=<src>|C:\sources\senai\projetos\curso - 628\exemplos\library\delay.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\display.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\funcoes.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\math.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\timer0.asm||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=
+TraceCmdString=
+DebugOptions=/d__DEBUG=1
+[File004]
+Location=C:\sources\senai\projetos\curso - 628\exemplos\relogio2\displayLCD.o
+Folder=Intermediary
+DeviceName=PIC16F628A
+LanguageToolSuiteID={6B3DAA78-59C1-46DD-B6AA-DBDAE4E06484}
+LanguageToolID={49D3CA3F-D9A3-4518-9943-226A347E8CC7}
+LanguageToolLocation=C:\Arquivos de programas\Microchip\MPASM Suite\MPASMWIN.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\sources\senai\projetos\curso - 628\exemplos\library||$(LKRDIR)||
+SOLK=<src>|C:\sources\senai\projetos\curso - 628\exemplos\library\delay.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\display.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\funcoes.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\math.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\timer0.asm||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=
+TraceCmdString=
+DebugOptions=/d__DEBUG=1
+[File005]
+Location=C:\sources\senai\projetos\curso - 628\exemplos\relogio2\displayLCD.err
+Folder=Intermediary
+DeviceName=PIC16F628A
+LanguageToolSuiteID={6B3DAA78-59C1-46DD-B6AA-DBDAE4E06484}
+LanguageToolID={49D3CA3F-D9A3-4518-9943-226A347E8CC7}
+LanguageToolLocation=C:\Arquivos de programas\Microchip\MPASM Suite\MPASMWIN.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\sources\senai\projetos\curso - 628\exemplos\library||$(LKRDIR)||
+SOLK=<src>|C:\sources\senai\projetos\curso - 628\exemplos\library\delay.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\display.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\funcoes.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\math.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\timer0.asm||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=
+TraceCmdString=
+DebugOptions=/d__DEBUG=1
+[File006]
+Location=C:\sources\senai\projetos\curso - 628\exemplos\relogio2\funcoes.o
+Folder=Intermediary
+DeviceName=PIC16F628A
+LanguageToolSuiteID={6B3DAA78-59C1-46DD-B6AA-DBDAE4E06484}
+LanguageToolID={49D3CA3F-D9A3-4518-9943-226A347E8CC7}
+LanguageToolLocation=C:\Arquivos de programas\Microchip\MPASM Suite\MPASMWIN.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\sources\senai\projetos\curso - 628\exemplos\library||$(LKRDIR)||
+SOLK=<src>|C:\sources\senai\projetos\curso - 628\exemplos\library\delay.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\display.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\funcoes.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\math.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\timer0.asm||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=
+TraceCmdString=
+DebugOptions=/d__DEBUG=1
+[File007]
+Location=C:\sources\senai\projetos\curso - 628\exemplos\relogio2\funcoes.err
+Folder=Intermediary
+DeviceName=PIC16F628A
+LanguageToolSuiteID={6B3DAA78-59C1-46DD-B6AA-DBDAE4E06484}
+LanguageToolID={49D3CA3F-D9A3-4518-9943-226A347E8CC7}
+LanguageToolLocation=C:\Arquivos de programas\Microchip\MPASM Suite\MPASMWIN.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\sources\senai\projetos\curso - 628\exemplos\library||$(LKRDIR)||
+SOLK=<src>|C:\sources\senai\projetos\curso - 628\exemplos\library\delay.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\display.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\funcoes.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\math.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\timer0.asm||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=
+TraceCmdString=
+DebugOptions=/d__DEBUG=1
+[File008]
+Location=C:\sources\senai\projetos\curso - 628\exemplos\relogio2\math.o
+Folder=Intermediary
+DeviceName=PIC16F628A
+LanguageToolSuiteID={6B3DAA78-59C1-46DD-B6AA-DBDAE4E06484}
+LanguageToolID={49D3CA3F-D9A3-4518-9943-226A347E8CC7}
+LanguageToolLocation=C:\Arquivos de programas\Microchip\MPASM Suite\MPASMWIN.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\sources\senai\projetos\curso - 628\exemplos\library||$(LKRDIR)||
+SOLK=<src>|C:\sources\senai\projetos\curso - 628\exemplos\library\delay.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\display.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\funcoes.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\math.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\timer0.asm||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=
+TraceCmdString=
+DebugOptions=/d__DEBUG=1
+[File009]
+Location=C:\sources\senai\projetos\curso - 628\exemplos\relogio2\math.err
+Folder=Intermediary
+DeviceName=PIC16F628A
+LanguageToolSuiteID={6B3DAA78-59C1-46DD-B6AA-DBDAE4E06484}
+LanguageToolID={49D3CA3F-D9A3-4518-9943-226A347E8CC7}
+LanguageToolLocation=C:\Arquivos de programas\Microchip\MPASM Suite\MPASMWIN.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\sources\senai\projetos\curso - 628\exemplos\library||$(LKRDIR)||
+SOLK=<src>|C:\sources\senai\projetos\curso - 628\exemplos\library\delay.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\display.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\funcoes.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\math.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\timer0.asm||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=
+TraceCmdString=
+DebugOptions=/d__DEBUG=1
+[File010]
+Location=C:\sources\senai\projetos\curso - 628\exemplos\relogio2\timer0.o
+Folder=Intermediary
+DeviceName=PIC16F628A
+LanguageToolSuiteID={6B3DAA78-59C1-46DD-B6AA-DBDAE4E06484}
+LanguageToolID={49D3CA3F-D9A3-4518-9943-226A347E8CC7}
+LanguageToolLocation=C:\Arquivos de programas\Microchip\MPASM Suite\MPASMWIN.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\sources\senai\projetos\curso - 628\exemplos\library||$(LKRDIR)||
+SOLK=<src>|C:\sources\senai\projetos\curso - 628\exemplos\library\delay.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\display.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\funcoes.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\math.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\timer0.asm||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=
+TraceCmdString=
+DebugOptions=/d__DEBUG=1
+[File011]
+Location=C:\sources\senai\projetos\curso - 628\exemplos\relogio2\timer0.err
+Folder=Intermediary
+DeviceName=PIC16F628A
+LanguageToolSuiteID={6B3DAA78-59C1-46DD-B6AA-DBDAE4E06484}
+LanguageToolID={49D3CA3F-D9A3-4518-9943-226A347E8CC7}
+LanguageToolLocation=C:\Arquivos de programas\Microchip\MPASM Suite\MPASMWIN.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\sources\senai\projetos\curso - 628\exemplos\library||$(LKRDIR)||
+SOLK=<src>|C:\sources\senai\projetos\curso - 628\exemplos\library\delay.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\display.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\funcoes.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\math.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\timer0.asm||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=
+TraceCmdString=
+DebugOptions=/d__DEBUG=1
+[File012]
+Location=C:\sources\senai\projetos\curso - 628\exemplos\relogio2\delay.lst
+Folder=Output
+DeviceName=PIC16F628A
+LanguageToolSuiteID={6B3DAA78-59C1-46DD-B6AA-DBDAE4E06484}
+LanguageToolID={49D3CA3F-D9A3-4518-9943-226A347E8CC7}
+LanguageToolLocation=C:\Arquivos de programas\Microchip\MPASM Suite\MPASMWIN.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\sources\senai\projetos\curso - 628\exemplos\library||$(LKRDIR)||
+SOLK=<src>|C:\sources\senai\projetos\curso - 628\exemplos\library\delay.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\display.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\funcoes.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\math.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\timer0.asm||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=
+TraceCmdString=
+DebugOptions=/d__DEBUG=1
+[File013]
+Location=C:\sources\senai\projetos\curso - 628\exemplos\relogio2\display.lst
+Folder=Output
+DeviceName=PIC16F628A
+LanguageToolSuiteID={6B3DAA78-59C1-46DD-B6AA-DBDAE4E06484}
+LanguageToolID={49D3CA3F-D9A3-4518-9943-226A347E8CC7}
+LanguageToolLocation=C:\Arquivos de programas\Microchip\MPASM Suite\MPASMWIN.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\sources\senai\projetos\curso - 628\exemplos\library||$(LKRDIR)||
+SOLK=<src>|C:\sources\senai\projetos\curso - 628\exemplos\library\delay.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\display.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\funcoes.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\math.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\timer0.asm||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=
+TraceCmdString=
+DebugOptions=/d__DEBUG=1
+[File014]
+Location=C:\sources\senai\projetos\curso - 628\exemplos\relogio2\displayLCD.lst
+Folder=Output
+DeviceName=PIC16F628A
+LanguageToolSuiteID={6B3DAA78-59C1-46DD-B6AA-DBDAE4E06484}
+LanguageToolID={49D3CA3F-D9A3-4518-9943-226A347E8CC7}
+LanguageToolLocation=C:\Arquivos de programas\Microchip\MPASM Suite\MPASMWIN.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\sources\senai\projetos\curso - 628\exemplos\library||$(LKRDIR)||
+SOLK=<src>|C:\sources\senai\projetos\curso - 628\exemplos\library\delay.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\display.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\funcoes.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\math.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\timer0.asm||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=
+TraceCmdString=
+DebugOptions=/d__DEBUG=1
+[File015]
+Location=C:\sources\senai\projetos\curso - 628\exemplos\relogio2\funcoes.lst
+Folder=Output
+DeviceName=PIC16F628A
+LanguageToolSuiteID={6B3DAA78-59C1-46DD-B6AA-DBDAE4E06484}
+LanguageToolID={49D3CA3F-D9A3-4518-9943-226A347E8CC7}
+LanguageToolLocation=C:\Arquivos de programas\Microchip\MPASM Suite\MPASMWIN.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\sources\senai\projetos\curso - 628\exemplos\library||$(LKRDIR)||
+SOLK=<src>|C:\sources\senai\projetos\curso - 628\exemplos\library\delay.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\display.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\funcoes.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\math.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\timer0.asm||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=
+TraceCmdString=
+DebugOptions=/d__DEBUG=1
+[File016]
+Location=C:\sources\senai\projetos\curso - 628\exemplos\relogio2\math.lst
+Folder=Output
+DeviceName=PIC16F628A
+LanguageToolSuiteID={6B3DAA78-59C1-46DD-B6AA-DBDAE4E06484}
+LanguageToolID={49D3CA3F-D9A3-4518-9943-226A347E8CC7}
+LanguageToolLocation=C:\Arquivos de programas\Microchip\MPASM Suite\MPASMWIN.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\sources\senai\projetos\curso - 628\exemplos\library||$(LKRDIR)||
+SOLK=<src>|C:\sources\senai\projetos\curso - 628\exemplos\library\delay.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\display.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\funcoes.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\math.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\timer0.asm||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=
+TraceCmdString=
+DebugOptions=/d__DEBUG=1
+[File017]
+Location=C:\sources\senai\projetos\curso - 628\exemplos\relogio2\timer0.lst
+Folder=Output
+DeviceName=PIC16F628A
+LanguageToolSuiteID={6B3DAA78-59C1-46DD-B6AA-DBDAE4E06484}
+LanguageToolID={49D3CA3F-D9A3-4518-9943-226A347E8CC7}
+LanguageToolLocation=C:\Arquivos de programas\Microchip\MPASM Suite\MPASMWIN.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\sources\senai\projetos\curso - 628\exemplos\library||$(LKRDIR)||
+SOLK=<src>|C:\sources\senai\projetos\curso - 628\exemplos\library\delay.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\display.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\funcoes.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\math.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\timer0.asm||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=
+TraceCmdString=
+DebugOptions=/d__DEBUG=1
+[File018]
+Location=C:\sources\senai\projetos\curso - 628\exemplos\relogio2\rel2.cof
+Folder=Output
+DeviceName=PIC16F628A
+LanguageToolSuiteID={6B3DAA78-59C1-46DD-B6AA-DBDAE4E06484}
+LanguageToolID={96C98149-AA1B-4CF9-B967-FAE79CAB663C}
+LanguageToolLocation=C:\Arquivos de programas\Microchip\MPASM Suite\mplink.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\sources\senai\projetos\curso - 628\exemplos\library||$(LKRDIR)||
+SOLK=<src>|C:\sources\senai\projetos\curso - 628\exemplos\library\delay.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\display.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\funcoes.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\math.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\timer0.asm||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=/m"$(BINDIR_)$(TARGETBASE).map" /w /o"$(BINDIR_)$(TARGETBASE).cof"
+TraceCmdString=
+DebugOptions=/z__MPLAB_DEBUG=1
+[File019]
+Location=C:\sources\senai\projetos\curso - 628\exemplos\relogio2\rel2.hex
+Folder=Output
+DeviceName=PIC16F628A
+LanguageToolSuiteID={6B3DAA78-59C1-46DD-B6AA-DBDAE4E06484}
+LanguageToolID={96C98149-AA1B-4CF9-B967-FAE79CAB663C}
+LanguageToolLocation=C:\Arquivos de programas\Microchip\MPASM Suite\mplink.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\sources\senai\projetos\curso - 628\exemplos\library||$(LKRDIR)||
+SOLK=<src>|C:\sources\senai\projetos\curso - 628\exemplos\library\delay.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\display.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\funcoes.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\math.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\timer0.asm||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=/m"$(BINDIR_)$(TARGETBASE).map" /w /o"$(BINDIR_)$(TARGETBASE).cof"
+TraceCmdString=
+DebugOptions=/z__MPLAB_DEBUG=1
+[File020]
+Location=C:\sources\senai\projetos\curso - 628\exemplos\relogio2\rel2.map
+Folder=Output
+DeviceName=PIC16F628A
+LanguageToolSuiteID={6B3DAA78-59C1-46DD-B6AA-DBDAE4E06484}
+LanguageToolID={96C98149-AA1B-4CF9-B967-FAE79CAB663C}
+LanguageToolLocation=C:\Arquivos de programas\Microchip\MPASM Suite\mplink.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)|C:\sources\senai\projetos\curso - 628\exemplos\library||$(LKRDIR)||
+SOLK=<src>|C:\sources\senai\projetos\curso - 628\exemplos\library\delay.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\display.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\funcoes.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\math.asm|C:\sources\senai\projetos\curso - 628\exemplos\library\timer0.asm||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=/m"$(BINDIR_)$(TARGETBASE).map" /w /o"$(BINDIR_)$(TARGETBASE).cof"
+TraceCmdString=
+DebugOptions=/z__MPLAB_DEBUG=1
+[TOOL_LOC_STAMPS]
+tool_loc{49D3CA3F-D9A3-4518-9943-226A347E8CC7}=C:\Arquivos de programas\Microchip\MPASM Suite\MPASMWIN.exe
+tool_loc{96C98149-AA1B-4CF9-B967-FAE79CAB663C}=C:\Arquivos de programas\Microchip\MPASM Suite\mplink.exe

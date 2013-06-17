@@ -1,0 +1,83 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+!_TAG_REVISION_NAME	MCHPTags	//
+!_TAG_REVISION_VERSION	6.0.1	//
+BCD2Int	C:\sources\senai\projetos\curso - 628\exemplos\library\funcoes.asm	106;"	l	line:106
+BCW	C:\sources\senai\projetos\curso - 628\exemplos\library\macros.inc	153;"	m	line:153
+BSW	C:\sources\senai\projetos\curso - 628\exemplos\library\macros.inc	185;"	m	line:185
+B_REG	C:\sources\senai\projetos\curso - 628\exemplos\library\math.asm	14;"	v	line:14
+CJEQ	C:\sources\senai\projetos\curso - 628\exemplos\library\macros.inc	33;"	m	line:33
+CJGT	C:\sources\senai\projetos\curso - 628\exemplos\library\macros.inc	47;"	m	line:47
+CJLT	C:\sources\senai\projetos\curso - 628\exemplos\library\macros.inc	61;"	m	line:61
+CJNE	C:\sources\senai\projetos\curso - 628\exemplos\library\macros.asm	8;"	m	line:8
+CJNE	C:\sources\senai\projetos\curso - 628\exemplos\library\macros.inc	17;"	m	line:17
+COMW	C:\sources\senai\projetos\curso - 628\exemplos\library\macros.inc	144;"	m	line:144
+DECW	C:\sources\senai\projetos\curso - 628\exemplos\library\macros.inc	116;"	m	line:116
+DIV_8	C:\sources\senai\projetos\curso - 628\exemplos\library\math.asm	87;"	l	line:87
+DIV_8_END_RESTO	C:\sources\senai\projetos\curso - 628\exemplos\library\math.asm	133;"	l	line:133
+DIV_8_LOOP	C:\sources\senai\projetos\curso - 628\exemplos\library\math.asm	103;"	l	line:103
+Delay_1ms	C:\sources\senai\projetos\curso - 628\exemplos\library\delay.asm	27;"	l	line:27
+Delay_500ms	C:\sources\senai\projetos\curso - 628\exemplos\library\delay.asm	62;"	l	line:62
+Delay_Xms	C:\sources\senai\projetos\curso - 628\exemplos\library\delay.asm	47;"	l	line:47
+I	C:\sources\senai\projetos\curso - 628\exemplos\library\delay.asm	15;"	v	line:15
+INCW	C:\sources\senai\projetos\curso - 628\exemplos\library\macros.inc	107;"	m	line:107
+INIT_SEC_COUNT	C:\sources\senai\projetos\curso - 628\exemplos\library\timer0.asm	14;"	q	line:14
+Init7SEG	C:\sources\senai\projetos\curso - 628\exemplos\library\display.asm	27;"	l	line:27
+InitTimer0	C:\sources\senai\projetos\curso - 628\exemplos\library\timer0.asm	32;"	l	line:32
+Int2BCD	C:\sources\senai\projetos\curso - 628\exemplos\library\funcoes.asm	56;"	l	line:56
+J	C:\sources\senai\projetos\curso - 628\exemplos\library\delay.asm	16;"	v	line:16
+JPWEQ	C:\sources\senai\projetos\curso - 628\exemplos\library\macros.inc	96;"	m	line:96
+JPWNZ	C:\sources\senai\projetos\curso - 628\exemplos\library\macros.inc	84;"	m	line:84
+JPWZ	C:\sources\senai\projetos\curso - 628\exemplos\library\macros.inc	73;"	m	line:73
+K	C:\sources\senai\projetos\curso - 628\exemplos\library\delay.asm	17;"	v	line:17
+LCDStrobeEN	C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm	39;"	m	line:39
+LCD_ADDR_L1	C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm	21;"	q	line:21
+LCD_ADDR_L2	C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm	22;"	q	line:22
+LCD_CLEAR	C:\sources\senai\projetos\curso - 628\exemplos\library\lcd_cmd.inc	9;"	q	line:9
+LCD_COLS	C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm	20;"	q	line:20
+LCD_DDRAM	C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm	24;"	q	line:24
+LCD_EN	C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm	13;"	q	line:13
+LCD_GotoXY	C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm	261;"	l	line:261
+LCD_GotoXY_L1	C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm	272;"	l	line:272
+LCD_GotoXY_L2	C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm	278;"	l	line:278
+LCD_GotoXY_cmd	C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm	284;"	l	line:284
+LCD_HOME	C:\sources\senai\projetos\curso - 628\exemplos\library\lcd_cmd.inc	10;"	q	line:10
+LCD_Init	C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm	134;"	l	line:134
+LCD_LINES	C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm	19;"	q	line:19
+LCD_PORT	C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm	16;"	q	line:16
+LCD_Print	C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm	222;"	l	line:222
+LCD_Putc	C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm	233;"	l	line:233
+LCD_Putc_	C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm	246;"	l	line:246
+LCD_Putc_BRK	C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm	238;"	l	line:238
+LCD_RS	C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm	15;"	q	line:15
+LCD_RW	C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm	14;"	q	line:14
+LCD_Reset	C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm	175;"	l	line:175
+LCD_TRIS	C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm	17;"	q	line:17
+LCD_TRIS_CFG	C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm	25;"	q	line:25
+LCD_cmd	C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm	59;"	l	line:59
+LCD_data	C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm	92;"	l	line:92
+LTMP	C:\sources\senai\projetos\curso - 628\exemplos\library\math.asm	19;"	v	line:19
+MUL_8	C:\sources\senai\projetos\curso - 628\exemplos\library\math.asm	32;"	l	line:32
+MUL_8_END	C:\sources\senai\projetos\curso - 628\exemplos\library\math.asm	67;"	l	line:67
+MUL_8_LOOP	C:\sources\senai\projetos\curso - 628\exemplos\library\math.asm	42;"	l	line:42
+RF_TMP	C:\sources\senai\projetos\curso - 628\exemplos\library\display.asm	17;"	v	line:17
+RLNC	C:\sources\senai\projetos\curso - 628\exemplos\library\macros.inc	135;"	m	line:135
+RRNC	C:\sources\senai\projetos\curso - 628\exemplos\library\macros.inc	125;"	m	line:125
+Refresh7SEG	C:\sources\senai\projetos\curso - 628\exemplos\library\display.asm	42;"	l	line:42
+TBL_PTR	C:\sources\senai\projetos\curso - 628\exemplos\library\funcoes.asm	19;"	v	line:19
+TBL_Read	C:\sources\senai\projetos\curso - 628\exemplos\library\funcoes.asm	32;"	l	line:32
+TMP1	C:\sources\senai\projetos\curso - 628\exemplos\library\display.asm	18;"	v	line:18
+TMR0_REL	C:\sources\senai\projetos\curso - 628\exemplos\library\timer0.asm	11;"	q	line:11
+TrataTimer0	C:\sources\senai\projetos\curso - 628\exemplos\library\timer0.asm	74;"	l	line:74
+TrataTimer0_END	C:\sources\senai\projetos\curso - 628\exemplos\library\timer0.asm	105;"	l	line:105
+W_TEMP	C:\sources\senai\projetos\curso - 628\exemplos\library\funcoes.asm	20;"	v	line:20
+W_TEMP	C:\sources\senai\projetos\curso - 628\exemplos\library\math.asm	15;"	v	line:15
+_ONESEC	C:\sources\senai\projetos\curso - 628\exemplos\library\timer0.asm	15;"	q	line:15
+iCount	C:\sources\senai\projetos\curso - 628\exemplos\library\math.asm	18;"	v	line:18
+iEvntCounter	C:\sources\senai\projetos\curso - 628\exemplos\library\timer0.asm	21;"	v	line:21
+iSecCounter	C:\sources\senai\projetos\curso - 628\exemplos\library\timer0.asm	22;"	v	line:22
+tmp	C:\sources\senai\projetos\curso - 628\exemplos\library\displayLCD.asm	35;"	v	line:35

@@ -1,0 +1,24 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+!_TAG_REVISION_NAME	MCHPTags	//
+!_TAG_REVISION_VERSION	6.0.1	//
+H_byte	C:\sources\senai\projetos\curso - 628\exemplos\ex2\timer.asm	6;"	v	line:6
+INTERR	C:\sources\senai\projetos\curso - 628\exemplos\ex2\ex2.asm	25;"	l	line:25
+L_byte	C:\sources\senai\projetos\curso - 628\exemplos\ex2\timer.asm	7;"	v	line:7
+MAIN	C:\sources\senai\projetos\curso - 628\exemplos\ex2\ex2.asm	22;"	l	line:22
+TRISA_CNF	C:\sources\senai\projetos\curso - 628\exemplos\ex2\ex2.asm	13;"	q	line:13
+TRISB_CNF	C:\sources\senai\projetos\curso - 628\exemplos\ex2\ex2.asm	14;"	q	line:14
+count	C:\sources\senai\projetos\curso - 628\exemplos\ex2\timer.asm	8;"	v	line:8
+delay1ms	C:\sources\senai\projetos\curso - 628\exemplos\ex2\delay.asm	19;"	l	line:19
+func1	C:\sources\senai\projetos\curso - 628\exemplos\ex2\teste.asm	7;"	l	line:7
+i	C:\sources\senai\projetos\curso - 628\exemplos\ex2\delay.asm	15;"	v	line:15
+inicio	C:\sources\senai\projetos\curso - 628\exemplos\ex2\ex2.asm	29;"	l	line:29
+j	C:\sources\senai\projetos\curso - 628\exemplos\ex2\delay.asm	16;"	v	line:16
+loop	C:\sources\senai\projetos\curso - 628\exemplos\ex2\timer.asm	20;"	l	line:20
+mpy	C:\sources\senai\projetos\curso - 628\exemplos\ex2\timer.asm	13;"	l	line:13
+mulcnd	C:\sources\senai\projetos\curso - 628\exemplos\ex2\timer.asm	4;"	v	line:4
+mulplr	C:\sources\senai\projetos\curso - 628\exemplos\ex2\timer.asm	5;"	v	line:5

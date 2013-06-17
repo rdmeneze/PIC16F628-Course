@@ -1,0 +1,116 @@
+MPLINK 4.30.01, Linker
+Linker Map File - Created Sat Aug 08 16:35:20 2009
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x00024a
+                   .cinit    romdata   0x000125    program   0x000004
+                    .code       code   0x000127    program   0x000014
+                  .config       code   0x002007    program   0x000002
+                   .udata      udata   0x000120       data   0x000003
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000130      
+                            0x002007    0x002007      
+            306 out of 2183 program addresses used, program memory utilization is 14%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+               BUSY_CHECK   0x000047    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+                  CMD_LCD   0x000057    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+                 DATA_LCD   0x00005b    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+                 INIT_LCD   0x000027    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+               INNER_LOOP   0x00010a    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+              LCD_IS_BUSY   0x00004f    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+                MSG_TESTE   0x00010f    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+               MSG_TESTE1   0x00011e    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+            MSG_TESTE_END   0x000023    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+           MSG_TESTE_NEXT   0x00001d    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+                 NOT_BUSY   0x000056    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+               OUTER_LOOP   0x000108    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+                PRINCIPAL   0x00000a    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+                    RESET   0x000000    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+                    START   0x000001    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+                 STR_LOOP   0x00000f    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+                 TBL_Read   0x000127    program     extern C:\Documents and Settings\aluno\Meus documentos\lcd\funcoes.asm
+               WAIT_100US   0x0000e9    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+                WAIT_10US   0x0000dd    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+               WAIT_128MS   0x0000ca    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+                WAIT_16MS   0x0000d2    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+                 WAIT_1MS   0x0000fa    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+               WAIT_200US   0x0000f0    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+               WAIT_256MS   0x0000c7    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+                WAIT_25US   0x0000e0    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+                 WAIT_2MS   0x0000ff    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+                WAIT_32MS   0x0000cf    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+                 WAIT_4MS   0x0000d8    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+               WAIT_500US   0x0000f5    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+                WAIT_50US   0x0000e4    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+                 WAIT_5US   0x0000db    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+                WAIT_64MS   0x0000cd    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+                 WAIT_8MS   0x0000d5    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+               WAIT_A_SEC   0x0000c0    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+            WAIT_HALF_SEC   0x0000c5    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+                 WAIT_XUS   0x000105    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+                WRITE_LCD   0x00005e    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+         WRITE_MENU_LINE1   0x000079    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+         WRITE_MENU_LINE2   0x00009c    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+                  TBL_PTR   0x000120       data     extern C:\Documents and Settings\aluno\Meus documentos\lcd\funcoes.asm
+                   W_TEMP   0x000122       data     static C:\Documents and Settings\aluno\Meus documentos\lcd\funcoes.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    RESET   0x000000    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+                    START   0x000001    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+                PRINCIPAL   0x00000a    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+                 STR_LOOP   0x00000f    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+           MSG_TESTE_NEXT   0x00001d    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+            MSG_TESTE_END   0x000023    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+                 INIT_LCD   0x000027    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+               BUSY_CHECK   0x000047    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+              LCD_IS_BUSY   0x00004f    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+                 NOT_BUSY   0x000056    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+                  CMD_LCD   0x000057    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+                 DATA_LCD   0x00005b    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+                WRITE_LCD   0x00005e    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+         WRITE_MENU_LINE1   0x000079    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+         WRITE_MENU_LINE2   0x00009c    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+               WAIT_A_SEC   0x0000c0    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+            WAIT_HALF_SEC   0x0000c5    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+               WAIT_256MS   0x0000c7    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+               WAIT_128MS   0x0000ca    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+                WAIT_64MS   0x0000cd    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+                WAIT_32MS   0x0000cf    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+                WAIT_16MS   0x0000d2    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+                 WAIT_8MS   0x0000d5    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+                 WAIT_4MS   0x0000d8    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+                 WAIT_5US   0x0000db    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+                WAIT_10US   0x0000dd    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+                WAIT_25US   0x0000e0    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+                WAIT_50US   0x0000e4    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+               WAIT_100US   0x0000e9    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+               WAIT_200US   0x0000f0    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+               WAIT_500US   0x0000f5    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+                 WAIT_1MS   0x0000fa    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+                 WAIT_2MS   0x0000ff    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+                 WAIT_XUS   0x000105    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+               OUTER_LOOP   0x000108    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+               INNER_LOOP   0x00010a    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+                MSG_TESTE   0x00010f    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+               MSG_TESTE1   0x00011e    program     static C:\Documents and Settings\aluno\Meus documentos\lcd\LCD-PIC.ASM
+                 TBL_Read   0x000127    program     extern C:\Documents and Settings\aluno\Meus documentos\lcd\funcoes.asm
+                  TBL_PTR   0x000120       data     extern C:\Documents and Settings\aluno\Meus documentos\lcd\funcoes.asm
+                   W_TEMP   0x000122       data     static C:\Documents and Settings\aluno\Meus documentos\lcd\funcoes.asm
+
+

@@ -1,0 +1,15 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;   
+;   Arquivo de definição de constantes e outras coisas de uso geral
+;   @Author  :  Rafael Dias Menezes
+;   @Data    :  Jul/2009
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+    list p=16F628A
+		#include <p16F628A.inc>
+    RADIX   dec
+    
+    END_CSTR    EQU 0
+    
+    
