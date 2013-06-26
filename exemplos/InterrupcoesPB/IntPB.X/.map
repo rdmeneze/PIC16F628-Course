@@ -1,0 +1,127 @@
+MPLINK 4.48, Linker
+Linker Map File - Created Wed Jun 26 16:29:03 2013
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                     MAIN       code   0x000000    program   0x000002
+                   .cinit    romdata   0x000001    program   0x000004
+                   INTERR       code   0x000004    program   0x0000ea
+                    .code       code   0x000079    program   0x00017e
+.config_2007_BUILD/DEFAULT/DEBUG/_EXT/1472/MA       code   0x002007    program   0x000002
+                   .udata      udata   0x000120       data   0x000009
+               .udata_ovr      udata   0x000129       data   0x000004
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000002      
+                            0x000004    0x000137      
+                            0x002007    0x002007      
+            312 out of 2182 program addresses used, program memory utilization is 14%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                  BCD2Int   0x0000bd    program     extern ..\funcoes.asm           
+               ConfigINT0   0x000018    program     static ..\main.asm              
+        DESLIGA_LED_DELAY   0x000059    program     static ..\main.asm              
+                    DIV_8   0x0000fe    program     extern ..\math.asm              
+    DIV_8_END_DIV.EQ.DIVD   0x00012b    program     static ..\math.asm              
+    DIV_8_END_DIV.GT.DIVD   0x000130    program     static ..\math.asm              
+          DIV_8_END_RESTO   0x000121    program     static ..\math.asm              
+               DIV_8_LOOP   0x00010b    program     static ..\math.asm              
+                Delay_1ms   0x000079    program     extern ..\delay.asm             
+              Delay_500ms   0x000084    program     extern ..\delay.asm             
+                  Int2BCD   0x0000a0    program     extern ..\funcoes.asm           
+           LIGA_LED_DELAY   0x000057    program     static ..\main.asm              
+                MSG_TESTE   0x000073    program     static ..\main.asm              
+            MSG_TESTE_END   0x000072    program     static ..\main.asm              
+           MSG_TESTE_NEXT   0x00006c    program     static ..\main.asm              
+           MSG_TESTE_READ   0x00005e    program     static ..\main.asm              
+                    MUL_8   0x0000d6    program     extern ..\math.asm              
+                MUL_8_END   0x0000f4    program     static ..\math.asm              
+               MUL_8_LOOP   0x0000e0    program     static ..\math.asm              
+             OFF_LED_INT0   0x000026    program     static ..\main.asm              
+              ON_LED_INT0   0x000024    program     static ..\main.asm              
+       SAI_CTRL_LED_DELAY   0x00005b    program     static ..\main.asm              
+        SAI_CTRL_LED_INT0   0x000028    program     static ..\main.asm              
+                 TBL_Read   0x000096    program     extern ..\funcoes.asm           
+                TrataINT0   0x00001f    program     static ..\main.asm              
+               TrataRBInt   0x00002a    program     static ..\main.asm              
+              _.code_0007   0x000080    program     static ..\delay.asm             
+              _.code_0009   0x000082    program     static ..\delay.asm             
+              _.code_0016   0x00008f    program     static ..\delay.asm             
+              _.code_001B   0x000094    program     static ..\delay.asm             
+                   inicio   0x00002b    program     static ..\main.asm              
+           loop_principal   0x00004c    program     static ..\main.asm              
+                    B_REG   0x000127       data     extern ..\math.asm              
+                    COUNT   0x000122       data     static ..\main.asm              
+                        I   0x000129       data     static ..\delay.asm             
+                        J   0x00012a       data     static ..\delay.asm             
+                        K   0x00012b       data     static ..\delay.asm             
+                     LTMP   0x00012a       data     static ..\math.asm              
+              STATUS_TEMP   0x000121       data     static ..\main.asm              
+                  TBL_PTR   0x000124       data     extern ..\funcoes.asm           
+                      TMP   0x000123       data     static ..\main.asm              
+                   W_TEMP   0x000120       data     static ..\main.asm              
+                   W_TEMP   0x000126       data     static ..\funcoes.asm           
+                   W_TEMP   0x000128       data     static ..\math.asm              
+                   iCount   0x000129       data     static ..\math.asm              
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+               ConfigINT0   0x000018    program     static ..\main.asm              
+                TrataINT0   0x00001f    program     static ..\main.asm              
+              ON_LED_INT0   0x000024    program     static ..\main.asm              
+             OFF_LED_INT0   0x000026    program     static ..\main.asm              
+        SAI_CTRL_LED_INT0   0x000028    program     static ..\main.asm              
+               TrataRBInt   0x00002a    program     static ..\main.asm              
+                   inicio   0x00002b    program     static ..\main.asm              
+           loop_principal   0x00004c    program     static ..\main.asm              
+           LIGA_LED_DELAY   0x000057    program     static ..\main.asm              
+        DESLIGA_LED_DELAY   0x000059    program     static ..\main.asm              
+       SAI_CTRL_LED_DELAY   0x00005b    program     static ..\main.asm              
+           MSG_TESTE_READ   0x00005e    program     static ..\main.asm              
+           MSG_TESTE_NEXT   0x00006c    program     static ..\main.asm              
+            MSG_TESTE_END   0x000072    program     static ..\main.asm              
+                MSG_TESTE   0x000073    program     static ..\main.asm              
+                Delay_1ms   0x000079    program     extern ..\delay.asm             
+              _.code_0007   0x000080    program     static ..\delay.asm             
+              _.code_0009   0x000082    program     static ..\delay.asm             
+              Delay_500ms   0x000084    program     extern ..\delay.asm             
+              _.code_0016   0x00008f    program     static ..\delay.asm             
+              _.code_001B   0x000094    program     static ..\delay.asm             
+                 TBL_Read   0x000096    program     extern ..\funcoes.asm           
+                  Int2BCD   0x0000a0    program     extern ..\funcoes.asm           
+                  BCD2Int   0x0000bd    program     extern ..\funcoes.asm           
+                    MUL_8   0x0000d6    program     extern ..\math.asm              
+               MUL_8_LOOP   0x0000e0    program     static ..\math.asm              
+                MUL_8_END   0x0000f4    program     static ..\math.asm              
+                    DIV_8   0x0000fe    program     extern ..\math.asm              
+               DIV_8_LOOP   0x00010b    program     static ..\math.asm              
+          DIV_8_END_RESTO   0x000121    program     static ..\math.asm              
+    DIV_8_END_DIV.EQ.DIVD   0x00012b    program     static ..\math.asm              
+    DIV_8_END_DIV.GT.DIVD   0x000130    program     static ..\math.asm              
+                   W_TEMP   0x000120       data     static ..\main.asm              
+              STATUS_TEMP   0x000121       data     static ..\main.asm              
+                    COUNT   0x000122       data     static ..\main.asm              
+                      TMP   0x000123       data     static ..\main.asm              
+                  TBL_PTR   0x000124       data     extern ..\funcoes.asm           
+                   W_TEMP   0x000126       data     static ..\funcoes.asm           
+                    B_REG   0x000127       data     extern ..\math.asm              
+                   W_TEMP   0x000128       data     static ..\math.asm              
+                        I   0x000129       data     static ..\delay.asm             
+                   iCount   0x000129       data     static ..\math.asm              
+                        J   0x00012a       data     static ..\delay.asm             
+                     LTMP   0x00012a       data     static ..\math.asm              
+                        K   0x00012b       data     static ..\delay.asm             
+
+

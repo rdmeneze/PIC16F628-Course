@@ -1,0 +1,7 @@
+Message[302] ..\LCD-PIC.ASM 55 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] ..\LCD-PIC.ASM 56 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] ..\LCD-PIC.ASM 164 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] ..\LCD-PIC.ASM 202 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Warning[202] ..\LCD-PIC.ASM 385 : Argument out of range.  Least significant bits used.
+Warning[202] ..\LCD-PIC.ASM 392 : Argument out of range.  Least significant bits used.
+Warning[202] ..\LCD-PIC.ASM 399 : Argument out of range.  Least significant bits used.

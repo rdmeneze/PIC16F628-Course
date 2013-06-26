@@ -1,0 +1,4 @@
+Message[310] C:\PROGRAM FILES (X86)\MICROCHIP\MPLABX\MPASMX\P16F628A.INC 678 : Superseding current maximum RAM and RAM map.
+Message[312] ..\DELAY.ASM 50 : Page or Bank selection not needed for this device.  No code generated.
+Message[305] ..\DELAY.ASM 52 : Using default destination of 1 (file).
+Message[312] ..\DELAY.ASM 70 : Page or Bank selection not needed for this device.  No code generated.

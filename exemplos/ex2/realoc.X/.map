@@ -1,0 +1,52 @@
+MPLINK 4.48, Linker
+Linker Map File - Created Wed Jun 26 16:20:08 2013
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                     MAIN       code   0x000000    program   0x000002
+                   .cinit    romdata   0x000001    program   0x000004
+                   INTERR       code   0x000004    program   0x00001e
+                    .code       code   0x000013    program   0x000024
+.config_2007_BUILD/DEFAULT/DEBUG/_EXT/1472/EX       code   0x002007    program   0x000002
+               .udata_ovr      udata   0x000120       data   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000002      
+                            0x000004    0x000024      
+                            0x002007    0x002007      
+            37 out of 2182 program addresses used, program memory utilization is 1%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                InitTimer   0x000025    program     extern ..\timer.asm             
+              _.code_000A   0x00001f    program     static ..\delay.asm             
+              _.code_000E   0x000023    program     static ..\delay.asm             
+                 delay1ms   0x000015    program     extern ..\delay.asm             
+                    func1   0x000013    program     extern ..\teste.asm             
+                   inicio   0x000005    program     static ..\ex2.asm               
+                        i   0x000120       data     static ..\delay.asm             
+                        j   0x000121       data     static ..\delay.asm             
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   inicio   0x000005    program     static ..\ex2.asm               
+                    func1   0x000013    program     extern ..\teste.asm             
+                 delay1ms   0x000015    program     extern ..\delay.asm             
+              _.code_000A   0x00001f    program     static ..\delay.asm             
+              _.code_000E   0x000023    program     static ..\delay.asm             
+                InitTimer   0x000025    program     extern ..\timer.asm             
+                        i   0x000120       data     static ..\delay.asm             
+                        j   0x000121       data     static ..\delay.asm             
+
+

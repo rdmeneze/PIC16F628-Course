@@ -1,0 +1,2 @@
+Message[310] C:\PROGRAM FILES (X86)\MICROCHIP\MPLABX\MPASMX\P16F628A.INC 678 : Superseding current maximum RAM and RAM map.
+Message[302] ..\TIMER0.ASM 57 : Register in operand not in bank 0.  Ensure that bank bits are correct.
