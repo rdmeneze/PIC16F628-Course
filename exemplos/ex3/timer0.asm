@@ -16,7 +16,7 @@ _ONESEC			EQU	250
     
 	GLOBAL	InitTimer0, TrataTimer0
 	GLOBAL  iSecCounter
-	GLOBAL  iTimer0EN
+	;GLOBAL  iTimer0EN
 	
 	UDATA
 iEvntCounter    res 2           ; contador de eventos do timer0. Deverá contar de 1 até 1000 para dar 1 segundo
@@ -83,7 +83,7 @@ TrataTimer0:
     movwf   TMR0
     
     BANKSEL	iCounterRUN
-    mov
+    ;mov
     
     BANKSEL iEvntCounter
     incf    iEvntCounter+1,F    ; incrementa contador

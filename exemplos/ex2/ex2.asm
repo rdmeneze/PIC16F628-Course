@@ -15,24 +15,24 @@ TRISB_CNF	EQU	b'00000000'
 
 
     extern delay1ms
-    extern  mpy
+    ;extern  mpy
 
-
-
+; vetor de reset
 MAIN CODE 0x000
 	GOTO inicio;
 
+; vetor de interrupcao
 INTERR  CODE 0x004
 	retfie
 
+;-------------------------------------
 
 inicio:
-
     PAGESEL delay1ms
     CALL    delay1ms
     
-    PAGESEL mpy
-    CALL    mpy
+    ;PAGESEL mpy
+    ;CALL    mpy
     
 	BANKSEL CMCON
     MOVLW 0x07 

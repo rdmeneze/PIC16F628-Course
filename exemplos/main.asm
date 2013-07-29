@@ -9,14 +9,8 @@
 
     __config	_XT_OSC & _PWRTE_OFF & _WDT_OFF & _CP_OFF & _MCLRE_ON
 
-
-TRISA_CNF 	EQU	b'00000001'
-TRISB_CNF	EQU	b'00000000'
-
-MACRO 
-
-ENDM
-
+    TRISA_CNF 	EQU	b'00000001'
+    TRISB_CNF	EQU	b'00000000'
 
 	org 0x00
 	goto inicio;
