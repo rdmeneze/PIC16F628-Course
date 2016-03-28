@@ -6,8 +6,8 @@
 ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-    #include <defs.inc>
-		#include <macros.inc>
+#include <defs.inc>
+#include <macros.inc>
 
     
 ; variaveis locais ao modulo
@@ -42,20 +42,19 @@ Delay_1ms:
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;            
 ;
 ;   \brief  Realiza um delay de Xms
-;		\param	WREG	tempo decatraso em milisegundos.
+;   \param	WREG	tempo decatraso em milisegundos.
 ;
 Delay_Xms:
-		BANKSEL	K
-		movwf		K
-		PAGESEL	Delay_1ms
-		call		Delay_1ms
-		decfsz	K
-		goto		$-2
+    BANKSEL K
+    movwf   K
+    PAGESEL Delay_1ms
+    call    Delay_1ms
+    decfsz  K
+    goto    $-2
     RETURN;
 
     
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;    
-
 ;
 ;   \brief  Realiza um delay de 1ms
 ;

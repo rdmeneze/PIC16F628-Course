@@ -44,12 +44,18 @@ OBJECTDIR=build/${CND_CONF}/${IMAGE_TYPE}
 # Distribution Directory
 DISTDIR=dist/${CND_CONF}/${IMAGE_TYPE}
 
+# Source Files Quoted if spaced
+SOURCEFILES_QUOTED_IF_SPACED=../main.asm ../math.asm ../delay.asm ../funcoes.asm
+
 # Object Files Quoted if spaced
 OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/_ext/1472/main.o ${OBJECTDIR}/_ext/1472/math.o ${OBJECTDIR}/_ext/1472/delay.o ${OBJECTDIR}/_ext/1472/funcoes.o
 POSSIBLE_DEPFILES=${OBJECTDIR}/_ext/1472/main.o.d ${OBJECTDIR}/_ext/1472/math.o.d ${OBJECTDIR}/_ext/1472/delay.o.d ${OBJECTDIR}/_ext/1472/funcoes.o.d
 
 # Object Files
 OBJECTFILES=${OBJECTDIR}/_ext/1472/main.o ${OBJECTDIR}/_ext/1472/math.o ${OBJECTDIR}/_ext/1472/delay.o ${OBJECTDIR}/_ext/1472/funcoes.o
+
+# Source Files
+SOURCEFILES=../main.asm ../math.asm ../delay.asm ../funcoes.asm
 
 
 CFLAGS=
@@ -66,66 +72,77 @@ LDLIBSOPTIONS=
 FIXDEPS=fixDeps
 
 .build-conf:  ${BUILD_SUBPROJECTS}
-	${MAKE} ${MAKE_OPTIONS} -f nbproject/Makefile-default.mk dist/${CND_CONF}/${IMAGE_TYPE}/serial.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
+ifneq ($(INFORMATION_MESSAGE), )
+	@echo $(INFORMATION_MESSAGE)
+endif
+	${MAKE}  -f nbproject/Makefile-default.mk dist/${CND_CONF}/${IMAGE_TYPE}/serial.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
 
 MP_PROCESSOR_OPTION=16f628a
-MP_LINKER_DEBUG_OPTION=
+MP_LINKER_DEBUG_OPTION= 
 # ------------------------------------------------------------------------------------
 # Rules for buildStep: assemble
 ifeq ($(TYPE_IMAGE), DEBUG_RUN)
 ${OBJECTDIR}/_ext/1472/main.o: ../main.asm  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1472 
+	@${MKDIR} "${OBJECTDIR}/_ext/1472" 
 	@${RM} ${OBJECTDIR}/_ext/1472/main.o.d 
-	@${FIXDEPS} dummy.d -e "${OBJECTDIR}/_ext/1472/main.err" $(SILENT) -c ${MP_AS} $(MP_EXTRA_AS_PRE) -d__DEBUG  -q -p$(MP_PROCESSOR_OPTION)  -l\"${OBJECTDIR}/_ext/1472/main.lst\" -e\"${OBJECTDIR}/_ext/1472/main.err\" $(ASM_OPTIONS)   -o\"${OBJECTDIR}/_ext/1472/main.o\" \"../main.asm\" 
+	@${RM} ${OBJECTDIR}/_ext/1472/main.o 
+	@${FIXDEPS} dummy.d -e "${OBJECTDIR}/_ext/1472/main.err" $(SILENT) -c ${MP_AS} $(MP_EXTRA_AS_PRE) -d__DEBUG -d__MPLAB_DEBUGGER_SIMULATOR=1 -q -p$(MP_PROCESSOR_OPTION)  -l\"${OBJECTDIR}/_ext/1472/main.lst\" -e\"${OBJECTDIR}/_ext/1472/main.err\" $(ASM_OPTIONS)   -o\"${OBJECTDIR}/_ext/1472/main.o\" \"../main.asm\" 
 	@${DEP_GEN} -d "${OBJECTDIR}/_ext/1472/main.o"
 	@${FIXDEPS} "${OBJECTDIR}/_ext/1472/main.o.d" $(SILENT) -rsi ${MP_AS_DIR} -c18 
 	
 ${OBJECTDIR}/_ext/1472/math.o: ../math.asm  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1472 
+	@${MKDIR} "${OBJECTDIR}/_ext/1472" 
 	@${RM} ${OBJECTDIR}/_ext/1472/math.o.d 
-	@${FIXDEPS} dummy.d -e "${OBJECTDIR}/_ext/1472/math.err" $(SILENT) -c ${MP_AS} $(MP_EXTRA_AS_PRE) -d__DEBUG  -q -p$(MP_PROCESSOR_OPTION)  -l\"${OBJECTDIR}/_ext/1472/math.lst\" -e\"${OBJECTDIR}/_ext/1472/math.err\" $(ASM_OPTIONS)   -o\"${OBJECTDIR}/_ext/1472/math.o\" \"../math.asm\" 
+	@${RM} ${OBJECTDIR}/_ext/1472/math.o 
+	@${FIXDEPS} dummy.d -e "${OBJECTDIR}/_ext/1472/math.err" $(SILENT) -c ${MP_AS} $(MP_EXTRA_AS_PRE) -d__DEBUG -d__MPLAB_DEBUGGER_SIMULATOR=1 -q -p$(MP_PROCESSOR_OPTION)  -l\"${OBJECTDIR}/_ext/1472/math.lst\" -e\"${OBJECTDIR}/_ext/1472/math.err\" $(ASM_OPTIONS)   -o\"${OBJECTDIR}/_ext/1472/math.o\" \"../math.asm\" 
 	@${DEP_GEN} -d "${OBJECTDIR}/_ext/1472/math.o"
 	@${FIXDEPS} "${OBJECTDIR}/_ext/1472/math.o.d" $(SILENT) -rsi ${MP_AS_DIR} -c18 
 	
 ${OBJECTDIR}/_ext/1472/delay.o: ../delay.asm  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1472 
+	@${MKDIR} "${OBJECTDIR}/_ext/1472" 
 	@${RM} ${OBJECTDIR}/_ext/1472/delay.o.d 
-	@${FIXDEPS} dummy.d -e "${OBJECTDIR}/_ext/1472/delay.err" $(SILENT) -c ${MP_AS} $(MP_EXTRA_AS_PRE) -d__DEBUG  -q -p$(MP_PROCESSOR_OPTION)  -l\"${OBJECTDIR}/_ext/1472/delay.lst\" -e\"${OBJECTDIR}/_ext/1472/delay.err\" $(ASM_OPTIONS)   -o\"${OBJECTDIR}/_ext/1472/delay.o\" \"../delay.asm\" 
+	@${RM} ${OBJECTDIR}/_ext/1472/delay.o 
+	@${FIXDEPS} dummy.d -e "${OBJECTDIR}/_ext/1472/delay.err" $(SILENT) -c ${MP_AS} $(MP_EXTRA_AS_PRE) -d__DEBUG -d__MPLAB_DEBUGGER_SIMULATOR=1 -q -p$(MP_PROCESSOR_OPTION)  -l\"${OBJECTDIR}/_ext/1472/delay.lst\" -e\"${OBJECTDIR}/_ext/1472/delay.err\" $(ASM_OPTIONS)   -o\"${OBJECTDIR}/_ext/1472/delay.o\" \"../delay.asm\" 
 	@${DEP_GEN} -d "${OBJECTDIR}/_ext/1472/delay.o"
 	@${FIXDEPS} "${OBJECTDIR}/_ext/1472/delay.o.d" $(SILENT) -rsi ${MP_AS_DIR} -c18 
 	
 ${OBJECTDIR}/_ext/1472/funcoes.o: ../funcoes.asm  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1472 
+	@${MKDIR} "${OBJECTDIR}/_ext/1472" 
 	@${RM} ${OBJECTDIR}/_ext/1472/funcoes.o.d 
-	@${FIXDEPS} dummy.d -e "${OBJECTDIR}/_ext/1472/funcoes.err" $(SILENT) -c ${MP_AS} $(MP_EXTRA_AS_PRE) -d__DEBUG  -q -p$(MP_PROCESSOR_OPTION)  -l\"${OBJECTDIR}/_ext/1472/funcoes.lst\" -e\"${OBJECTDIR}/_ext/1472/funcoes.err\" $(ASM_OPTIONS)   -o\"${OBJECTDIR}/_ext/1472/funcoes.o\" \"../funcoes.asm\" 
+	@${RM} ${OBJECTDIR}/_ext/1472/funcoes.o 
+	@${FIXDEPS} dummy.d -e "${OBJECTDIR}/_ext/1472/funcoes.err" $(SILENT) -c ${MP_AS} $(MP_EXTRA_AS_PRE) -d__DEBUG -d__MPLAB_DEBUGGER_SIMULATOR=1 -q -p$(MP_PROCESSOR_OPTION)  -l\"${OBJECTDIR}/_ext/1472/funcoes.lst\" -e\"${OBJECTDIR}/_ext/1472/funcoes.err\" $(ASM_OPTIONS)   -o\"${OBJECTDIR}/_ext/1472/funcoes.o\" \"../funcoes.asm\" 
 	@${DEP_GEN} -d "${OBJECTDIR}/_ext/1472/funcoes.o"
 	@${FIXDEPS} "${OBJECTDIR}/_ext/1472/funcoes.o.d" $(SILENT) -rsi ${MP_AS_DIR} -c18 
 	
 else
 ${OBJECTDIR}/_ext/1472/main.o: ../main.asm  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1472 
+	@${MKDIR} "${OBJECTDIR}/_ext/1472" 
 	@${RM} ${OBJECTDIR}/_ext/1472/main.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1472/main.o 
 	@${FIXDEPS} dummy.d -e "${OBJECTDIR}/_ext/1472/main.err" $(SILENT) -c ${MP_AS} $(MP_EXTRA_AS_PRE) -q -p$(MP_PROCESSOR_OPTION)  -l\"${OBJECTDIR}/_ext/1472/main.lst\" -e\"${OBJECTDIR}/_ext/1472/main.err\" $(ASM_OPTIONS)   -o\"${OBJECTDIR}/_ext/1472/main.o\" \"../main.asm\" 
 	@${DEP_GEN} -d "${OBJECTDIR}/_ext/1472/main.o"
 	@${FIXDEPS} "${OBJECTDIR}/_ext/1472/main.o.d" $(SILENT) -rsi ${MP_AS_DIR} -c18 
 	
 ${OBJECTDIR}/_ext/1472/math.o: ../math.asm  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1472 
+	@${MKDIR} "${OBJECTDIR}/_ext/1472" 
 	@${RM} ${OBJECTDIR}/_ext/1472/math.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1472/math.o 
 	@${FIXDEPS} dummy.d -e "${OBJECTDIR}/_ext/1472/math.err" $(SILENT) -c ${MP_AS} $(MP_EXTRA_AS_PRE) -q -p$(MP_PROCESSOR_OPTION)  -l\"${OBJECTDIR}/_ext/1472/math.lst\" -e\"${OBJECTDIR}/_ext/1472/math.err\" $(ASM_OPTIONS)   -o\"${OBJECTDIR}/_ext/1472/math.o\" \"../math.asm\" 
 	@${DEP_GEN} -d "${OBJECTDIR}/_ext/1472/math.o"
 	@${FIXDEPS} "${OBJECTDIR}/_ext/1472/math.o.d" $(SILENT) -rsi ${MP_AS_DIR} -c18 
 	
 ${OBJECTDIR}/_ext/1472/delay.o: ../delay.asm  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1472 
+	@${MKDIR} "${OBJECTDIR}/_ext/1472" 
 	@${RM} ${OBJECTDIR}/_ext/1472/delay.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1472/delay.o 
 	@${FIXDEPS} dummy.d -e "${OBJECTDIR}/_ext/1472/delay.err" $(SILENT) -c ${MP_AS} $(MP_EXTRA_AS_PRE) -q -p$(MP_PROCESSOR_OPTION)  -l\"${OBJECTDIR}/_ext/1472/delay.lst\" -e\"${OBJECTDIR}/_ext/1472/delay.err\" $(ASM_OPTIONS)   -o\"${OBJECTDIR}/_ext/1472/delay.o\" \"../delay.asm\" 
 	@${DEP_GEN} -d "${OBJECTDIR}/_ext/1472/delay.o"
 	@${FIXDEPS} "${OBJECTDIR}/_ext/1472/delay.o.d" $(SILENT) -rsi ${MP_AS_DIR} -c18 
 	
 ${OBJECTDIR}/_ext/1472/funcoes.o: ../funcoes.asm  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1472 
+	@${MKDIR} "${OBJECTDIR}/_ext/1472" 
 	@${RM} ${OBJECTDIR}/_ext/1472/funcoes.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1472/funcoes.o 
 	@${FIXDEPS} dummy.d -e "${OBJECTDIR}/_ext/1472/funcoes.err" $(SILENT) -c ${MP_AS} $(MP_EXTRA_AS_PRE) -q -p$(MP_PROCESSOR_OPTION)  -l\"${OBJECTDIR}/_ext/1472/funcoes.lst\" -e\"${OBJECTDIR}/_ext/1472/funcoes.err\" $(ASM_OPTIONS)   -o\"${OBJECTDIR}/_ext/1472/funcoes.o\" \"../funcoes.asm\" 
 	@${DEP_GEN} -d "${OBJECTDIR}/_ext/1472/funcoes.o"
 	@${FIXDEPS} "${OBJECTDIR}/_ext/1472/funcoes.o.d" $(SILENT) -rsi ${MP_AS_DIR} -c18 
@@ -137,11 +154,11 @@ endif
 ifeq ($(TYPE_IMAGE), DEBUG_RUN)
 dist/${CND_CONF}/${IMAGE_TYPE}/serial.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}: ${OBJECTFILES}  nbproject/Makefile-${CND_CONF}.mk    
 	@${MKDIR} dist/${CND_CONF}/${IMAGE_TYPE} 
-	${MP_LD} $(MP_EXTRA_LD_PRE)   -p$(MP_PROCESSOR_OPTION)  -w -x -u_DEBUG -z__ICD2RAM=1 -m"$(BINDIR_)$(TARGETBASE).map" -w -l"E:/senai/projetos/curso - 628/exemplos/library" -l".."   -z__MPLAB_BUILD=1  -z__MPLAB_DEBUG=1 $(MP_LINKER_DEBUG_OPTION) -odist/${CND_CONF}/${IMAGE_TYPE}/serial.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}  ${OBJECTFILES_QUOTED_IF_SPACED}     
+	${MP_LD} $(MP_EXTRA_LD_PRE)   -p$(MP_PROCESSOR_OPTION)  -w -x -u_DEBUG -z__ICD2RAM=1 -m"$(BINDIR_)$(TARGETBASE).map" -w -l"../../library" -l".."   -z__MPLAB_BUILD=1  -z__MPLAB_DEBUG=1 -z__MPLAB_DEBUGGER_SIMULATOR=1 $(MP_LINKER_DEBUG_OPTION) -odist/${CND_CONF}/${IMAGE_TYPE}/serial.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}  ${OBJECTFILES_QUOTED_IF_SPACED}     
 else
 dist/${CND_CONF}/${IMAGE_TYPE}/serial.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}: ${OBJECTFILES}  nbproject/Makefile-${CND_CONF}.mk   
 	@${MKDIR} dist/${CND_CONF}/${IMAGE_TYPE} 
-	${MP_LD} $(MP_EXTRA_LD_PRE)   -p$(MP_PROCESSOR_OPTION)  -w  -m"$(BINDIR_)$(TARGETBASE).map" -w -l"E:/senai/projetos/curso - 628/exemplos/library" -l".."   -z__MPLAB_BUILD=1  -odist/${CND_CONF}/${IMAGE_TYPE}/serial.X.${IMAGE_TYPE}.${DEBUGGABLE_SUFFIX}  ${OBJECTFILES_QUOTED_IF_SPACED}     
+	${MP_LD} $(MP_EXTRA_LD_PRE)   -p$(MP_PROCESSOR_OPTION)  -w  -m"$(BINDIR_)$(TARGETBASE).map" -w -l"../../library" -l".."   -z__MPLAB_BUILD=1  -odist/${CND_CONF}/${IMAGE_TYPE}/serial.X.${IMAGE_TYPE}.${DEBUGGABLE_SUFFIX}  ${OBJECTFILES_QUOTED_IF_SPACED}     
 endif
 
 

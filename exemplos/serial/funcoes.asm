@@ -6,9 +6,9 @@
 ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
     
-    #include <defs.inc>
-		#include <macros.inc>
-    
+#include <defs.inc>
+#include <macros.inc>
+
 
     EXTERN	DIV_8
     EXTERN	MUL_8
@@ -18,7 +18,7 @@
     UDATA
 TBL_PTR RES 2   ;  variável para armazenamento de tabela que deverá ser lida da memória de programa
 W_TEMP	RES	1
-       
+
     GLOBAL  TBL_PTR, TBL_Read, Int2BCD, BCD2Int
      
     CODE
@@ -50,7 +50,7 @@ TBL_Read:
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;     
 ;   Int2BCD
 ;   \brief  Converte um número inteiro em BCD
-;	\param	WREG-> valor a converter. 0-99
+;   \param  WREG-> valor a converter. 0-99
 ;   \return WREG-> valor convertido
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;    
 Int2BCD:
@@ -81,13 +81,13 @@ Int2BCD:
 	RLNC	W_TEMP
 	RLNC	W_TEMP
 	movf	W_TEMP,W
-	;bcf		STATUS,C	
+	;bcf	STATUS,C	
 	;rlf 	W_TEMP,F
-	;bcf		STATUS,C	
+	;bcf	STATUS,C	
 	;rlf 	W_TEMP,F
-	;bcf		STATUS,C	
+	;bcf	STATUS,C	
 	;rlf 	W_TEMP,F
-	;bcf		STATUS,C	
+	;bcf	STATUS,C	
 	;rlf 	W_TEMP,W
 	
 	BANKSEL	B_REG
@@ -130,5 +130,4 @@ BCD2Int:
        
     return;
 
-    
     END
