@@ -1,5 +1,5 @@
-MPLINK 4.48, Linker
-Linker Map File - Created Wed Jun 26 16:20:08 2013
+MPLINK 5.08, LINKER
+Linker Map File - Created Tue Mar 29 10:50:12 2016
 
                                  Section Info
                   Section       Type    Address   Location Size(Bytes)
@@ -8,7 +8,7 @@ Linker Map File - Created Wed Jun 26 16:20:08 2013
                    .cinit    romdata   0x000001    program   0x000004
                    INTERR       code   0x000004    program   0x00001e
                     .code       code   0x000013    program   0x000024
-.config_2007_BUILD/DEFAULT/DEBUG/_EXT/1472/EX       code   0x002007    program   0x000002
+.config_2007_BUILD/DEFAULT/PRODUCTION/_EXT/14       code   0x002007    program   0x000002
                .udata_ovr      udata   0x000120       data   0x000002
 
 

@@ -1,3 +1,0 @@
-Message[312] ..\EX2.ASM 31 : Page or Bank selection not needed for this device.  No code generated.
-Message[302] ..\EX2.ASM 43 : Register in operand not in bank 0.  Ensure that bank bits are correct.
-Message[302] ..\EX2.ASM 47 : Register in operand not in bank 0.  Ensure that bank bits are correct.
